@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{26135E25-2CE6-423C-9A06-76DB62A3300A}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="WwiseDefaultBank_WW_MMNU_Login" ID="{26135E25-2CE6-423C-9A06-76DB62A3300A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="WwiseDefaultBank_WW_MMNU_Login" ID="{F7A12AFB-FA9C-4E23-A6CD-7E99D5BCD2AB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MMNU Login" ID="{9F714E67-BDAA-44C2-AE30-47BFE9BD6FBB}" WorkUnitID="{33A4BF3C-12A8-4DCB-A9CA-7E2F6F813A3A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BC846D14-47B9-4275-995A-B15070A7AA2E}" SchemaVersion="70" RootDocumentID="{0AAC0956-5181-4AF6-B6D9-B45AF18602D7}">
+	<Events>
+		<WorkUnit Name="MUS AMB" ID="{BC846D14-47B9-4275-995A-B15070A7AA2E}" OwnerID="{0AAC0956-5181-4AF6-B6D9-B45AF18602D7}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_MAMB_Z_AssemblyLab" ID="{0C7E292B-B127-4894-96E1-86CC20709036}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FB5780E3-4F25-41FF-8F5D-D1275BA96E3E}" ShortID="942840226" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{C2C87443-D344-47ED-B7CB-AF3BED57F313}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_MomentaryReprieve" ID="{B545B129-612B-4387-A490-89E8E4D2E4BF}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{FB3FCCB9-D358-4D27-8A9E-B02B518843C8}" ShortID="96361952" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{FB364A15-2793-471A-9116-BE61D831AFD1}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_Ambient302" ID="{EA27A612-755F-4168-BAB0-1806B1561A50}">
+					<ChildrenList>
+						<Action Name="Play" ID="{AA846889-5889-43B8-9868-6A37F28A99ED}" ShortID="296322533" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{7C8C63DA-5ACD-4E7F-9C4B-A096D03BF3D2}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_Ambient303" ID="{241183A6-11F5-42DB-B395-A0621725AE71}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DCB90B1D-590B-4036-93AD-F8784E16F835}" ShortID="69061933" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{4970F1F3-251E-4694-BD3E-EFAB691357D8}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_Ambient300" ID="{90933079-8397-49AF-B27D-F56BA0A2AFDC}">
+					<ChildrenList>
+						<Action Name="Play" ID="{414C91F8-0734-4CF9-A907-1A1F60BEE00B}" ShortID="893955818" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{2C5F57E5-9199-4159-90B2-B440D2E6554A}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_Ambient301" ID="{B9520387-8C09-4B37-BCFA-19C503821B12}">
+					<ChildrenList>
+						<Action Name="Play" ID="{641B6E17-C03C-4144-AF22-57BCAB72969A}" ShortID="170187875" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{FEA5C516-8D91-4887-9A21-C5EF43D80580}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_MomentaryReprieve" ID="{EDEA1ECE-8F72-4BC8-B73B-7F9AAB399411}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FBFFAF4E-464A-43AC-8A5F-3F878AE52E5C}" ShortID="806655826" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{1508D5BF-1429-4D38-A81B-F3DE6382065B}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_Ambient203" ID="{75839E31-37EB-4730-9A95-6D1C51BDF309}">
+					<ChildrenList>
+						<Action Name="Play" ID="{42BA0F06-2474-4323-A349-77FA4E87BBF9}" ShortID="648435517" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{32C0BB35-44FF-4D68-BB5F-4609A50134F1}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_Ambient202" ID="{D197F68B-08A0-4BAB-9892-DAFE07BB12E6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8A253E0A-3B20-4FA5-A738-3C500F459C28}" ShortID="1068513462" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{84E16B55-C695-4B76-A030-1146A0BAFED2}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_Ambient200" ID="{F397EA96-02D6-47CC-8F92-BEC5846F4251}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8DCAC224-B33C-4001-B338-15437D9BE20C}" ShortID="12848327" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B949480B-AC00-4B4E-BF1B-3DF847AC5349}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_Ambient300" ID="{743E2864-6C35-47DF-80C9-02C4F45EE064}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{E6A08BE3-3D3A-4A18-B6CF-CCB38E43F69D}" ShortID="640709295" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{506D36CC-CE62-4B39-BE7C-90995417EE8D}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_Ambient301" ID="{F831F9B0-2F1E-4F16-BCA9-46FAF5736F88}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{4DD5BD11-D46B-4FD4-9073-DF4A3825D255}" ShortID="978371587" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{212D2C42-EEE0-4E9E-B688-C0CB988AEDF5}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_Ambient302" ID="{A36B15C2-E7BB-4F34-B203-6FE4CABF6C21}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{DBFAC4E9-C865-49C0-94B3-359B31554493}" ShortID="786065982" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{84C52740-BE93-4DEB-BE2D-6A8737290D9B}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_Ambient303" ID="{55E01B56-0451-42B8-BD5A-77E57C3B1254}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{91B3C0CE-6967-47A3-94EE-AECDA6E16535}" ShortID="263971278" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{91A4E28E-929C-4618-ABC8-9387C4C8F2C0}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_RendezvousPoint" ID="{E2730B4B-9F69-40F9-991B-611A838D3103}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{4F256D56-72B9-4D0F-AF95-3C4E5217E5F2}" ShortID="597292637" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{F1C9B609-376B-4A45-BB79-D9B76017D0C8}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_Ambient200" ID="{6BB25068-92F1-4001-A9FB-F8CB5C4B699E}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{DDCC52CC-F21A-429C-A54F-83E93E36BE46}" ShortID="397637432" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{32C8B16D-93B2-4CA4-8E7B-27A44B051CD2}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_Ambient203" ID="{C53093CB-7431-4584-B6D5-87F01AACB78B}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{C92A1246-DC22-41D0-930B-03FDEA7DFD63}" ShortID="830487648" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{5DCDBD4B-6FBB-4881-9E91-7A5725430916}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_Ambient202" ID="{39180699-2CB4-4440-887E-A5D3004E9066}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{250F57C7-1270-4B88-9F14-69DE34E45A84}" ShortID="530389731" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{4E47F4EA-D7B5-46B8-B729-4CBAFB1D3429}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_PhantomSecurity" ID="{98480B10-7369-4977-8C76-8D6DBACD54DB}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{225582D4-3982-4D14-AB19-714A8FB0CADF}" ShortID="289488894" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{37DF4E9C-7089-40DC-9D46-B5321D96736D}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_RG_InTheDarkness_Inst" ID="{B49D0629-153D-4883-BEBA-E6DD97E92EB3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{25230C58-9F5E-428D-919D-F262AD2BF7B8}" ShortID="583893604" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{950F9936-BB0E-4A62-BAD5-689924B099B4}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_PhantomSecurity" ID="{80F99D28-D4F4-4843-B988-8AF32066BCC7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5FE6EDA9-9BB0-4B18-B587-7310C3BA153B}" ShortID="354898029" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{0377894E-5A95-4A2C-87E2-B2A529998C14}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_Malformitate" ID="{19BB64F3-564E-4DF7-995B-A0EFE725AABF}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{2139E3AD-7B65-4746-A0C3-872795844324}" ShortID="658548832" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D98EF952-8155-4D12-BFF4-E46318BF750D}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_RendezvousPoint" ID="{822BFEF0-E9E4-4313-BEB9-11A19BF42087}">
+					<ChildrenList>
+						<Action Name="Play" ID="{75AF7822-0FA1-45AE-98D6-BEBC495E9AAC}" ShortID="812121436" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{906C2F38-A64F-4646-B796-6D352D5C3C7C}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MAMB_Z_Malformitate" ID="{793E5E89-876A-41FC-A68E-DDF93BB8F340}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CC1AA4DF-59DF-450D-A777-AF32C402F20E}" ShortID="452390169" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B1AEA3A9-B54C-44E0-B2BA-F7D64A380EDB}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_Z_AssemblyLab" ID="{1EA6C57F-D7AB-49B7-86BD-9B28704AC23B}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{18F7AD76-B957-498A-A822-D90E11C77AC9}" ShortID="532824723" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{C0B10C78-6D67-42ED-B857-30D552F46416}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAMB_RG_InTheDarkness_Inst" ID="{DE8DDD23-6FD3-4B15-AB4C-CDA8FD83FB26}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{77689233-8A3A-4495-B2B9-8D880926097E}" ShortID="697828437" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{833A3343-6CFD-4CF3-94D6-35BAF0AC24F6}" Global="false">
+									<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

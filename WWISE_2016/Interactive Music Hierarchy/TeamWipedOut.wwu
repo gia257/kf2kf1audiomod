@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D0538714-99F6-4FBE-822F-5ADDA1775BA2}" SchemaVersion="70" RootDocumentID="{C927B611-AF79-4857-9A68-4AD04C2FC126}">
+	<InteractiveMusic>
+		<WorkUnit Name="TeamWipedOut" ID="{D0538714-99F6-4FBE-822F-5ADDA1775BA2}" OwnerID="{C927B611-AF79-4857-9A68-4AD04C2FC126}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicSegment Name="KF_2_Watching" ID="{DA66795E-A336-419A-B176-2D97282CA262}" ShortID="806205957">
+					<PropertyList>
+						<Property Name="DivergenceCenter" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="EndPosition" Type="Real64" Value="86910.3152557319"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95F03577-377A-4B9F-A6AA-9F6BA9DA3126}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="KF_2_Watching" ID="{90DA057D-3285-4D9D-AE51-D4B136D29465}" ShortID="591741790">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="LookAheadTime" Type="int16">
+									<ValueList>
+										<Value>5000</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E66ED9-FD65-4804-A381-F5033F165448}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95F03577-377A-4B9F-A6AA-9F6BA9DA3126}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KF_2_Watching" ID="{84D238FC-BF00-4C78-9BEC-BC80752C9AF9}" ShortID="763973804">
+									<Language>SFX</Language>
+									<AudioFile>KF_2_Watching.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3E6C284D-3D07-4910-ADA4-D176480B3B73}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{02B7CC10-5925-4AE3-9BEA-FE996E3FDC6D}">
+									<ClipList>
+										<MusicClip Name="KF_2_Watching" ID="{1B616D41-8E5D-418B-BEB1-2C34C2179DF7}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="73783.8095238095"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="KF_2_Watching" ID="{84D238FC-BF00-4C78-9BEC-BC80752C9AF9}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{0727DE96-D2EF-4CDB-9BBB-A5A7527A0993}"/>
+						<MusicCue Name="Exit Cue" ID="{90AA5EEF-0D42-457A-B0DD-ADF75DEAAB7B}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="73783.8095238095"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

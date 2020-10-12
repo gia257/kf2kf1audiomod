@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{53530539-3F9B-42FD-B043-5C9C1184EE45}" SchemaVersion="70">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{53530539-3F9B-42FD-B043-5C9C1184EE45}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="SS_Air_Fear" ID="{30DA9C2F-3A2F-4B56-A008-B00A60BFA880}"/>
+				<GameParameter Name="SS_Air_Freefall" ID="{BF511FAA-6CF0-49BB-975F-67774C82CE92}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="75"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SS_Air_Fury" ID="{47C2EB02-AD87-4AAC-B6FC-AAB2B0169B57}"/>
+				<GameParameter Name="SS_Air_Month" ID="{6505E219-D014-42FD-861A-D2FD1EE4AC37}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="6"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SS_Air_Presence" ID="{91248C00-0999-4A92-B7FF-03F6CC340096}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="75"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SS_Air_RPM" ID="{CF6A3AE2-AB84-4F5F-8E9F-E62BD1DF58FF}"/>
+				<GameParameter Name="SS_Air_Size" ID="{76BD616D-4C39-42A7-8875-A6C917AC91C5}"/>
+				<GameParameter Name="SS_Air_Storm" ID="{69083A07-42EB-44FF-AE81-AEE5F1031148}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="75"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SS_Air_Timeofday" ID="{72CEF84A-65A2-43EF-925E-48E06D960449}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="6"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SS_Air_Turbulence" ID="{59FB70E3-AA2E-4ECD-8A2C-E3C7FD9F1E90}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="6"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Zedtime_Modifier" ID="{A572DA60-BC37-444D-A59D-0A5BDE795BE1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<WorkUnit Name="GP_UI" ID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerCharacter" ID="{FEBF4C87-6F54-4516-A137-1D0C8444BEFF}" PersistMode="Reference"/>
+				<WorkUnit Name="GP_Global" ID="{BD97F7D9-0BF7-42A3-BB4A-349F2E2DD34F}" PersistMode="Reference"/>
+				<WorkUnit Name="GP_Weapons" ID="{B22E1061-498A-4B60-BF27-1AFE8DC3EAD6}" PersistMode="Reference"/>
+				<WorkUnit Name="Fleshpound" ID="{AAEF6179-C0A2-4E04-91D3-6967F8405C51}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

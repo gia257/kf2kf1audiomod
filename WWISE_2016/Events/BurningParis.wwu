@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{202D33CD-141C-423E-8B0A-EB39E2313A8E}" SchemaVersion="70" RootDocumentID="{67F11269-9613-4745-9B57-1E0DCE5B024B}">
+	<Events>
+		<WorkUnit Name="BurningParis" ID="{202D33CD-141C-423E-8B0A-EB39E2313A8E}" OwnerID="{67F11269-9613-4745-9B57-1E0DCE5B024B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_ENV_BurningParis_AMB_Composite_ST_LP" ID="{A4715F07-0D6C-4086-BDD0-27876EBB0D00}">
+					<ChildrenList>
+						<Action Name="Play" ID="{ACD31EF9-7C93-4290-A799-EB833FF9C940}" ShortID="36353846" Type="Play" Scope="One" Global="false">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+							</ExcludedPlatformList>
+							<ElementList>
+								<Element ID="{06DEEFAC-232B-4F65-B8A4-86E2DEABED32}" Global="false">
+									<ObjectRef Name="KFh6_Derelict" ID="{0C64CFAD-89B1-4BF6-9A15-FEB572D430C1}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{A075791D-D960-4A44-A8FB-1F65A9D5657A}" ShortID="341315184" Type="SetState" Scope="All" Global="true">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+							</ExcludedPlatformList>
+							<SetItemParam>
+								<Group Name="BossPhase" ID="{922FAC45-234A-4155-AB0E-4BFEC91E252F}"/>
+								<GroupItem Name="Phase1" ID="{1347C399-36A0-45C2-9586-0B6CBD40B2C1}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{9CE68C7B-1470-4AFA-8683-8A30EDB9FA46}" ShortID="757303744" Type="SetState" Scope="All" Global="true">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+							</ExcludedPlatformList>
+							<SetItemParam>
+								<Group Name="BossPhase" ID="{922FAC45-234A-4155-AB0E-4BFEC91E252F}"/>
+								<GroupItem Name="Phase2" ID="{88C5B20C-BB70-41C1-9609-0F846D946ECD}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{6795EB7E-6561-4B25-80A6-C94E80C91051}" ShortID="839145837" Type="SetState" Scope="All" Global="true">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+							</ExcludedPlatformList>
+							<SetItemParam>
+								<Group Name="BossPhase" ID="{922FAC45-234A-4155-AB0E-4BFEC91E252F}"/>
+								<GroupItem Name="Phase3" ID="{9FA4C793-0471-49F0-B806-C2B64BD664DD}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{EA7F5628-25E6-49F7-8DED-6301B9A87937}" ShortID="123717362" Type="SetState" Scope="All" Global="true">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+							</ExcludedPlatformList>
+							<SetItemParam>
+								<Group Name="BossPhase" ID="{922FAC45-234A-4155-AB0E-4BFEC91E252F}"/>
+								<GroupItem Name="Phase4" ID="{3787C6FE-B6F8-466B-A318-8E2BFFD76339}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{CDE7B57A-C5E0-4478-9EEF-C5675865AE76}" ShortID="389574836" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Level" ID="{0CC668AD-8632-4356-B46D-6F53B4B4FEE3}"/>
+								<GroupItem Name="Paris" ID="{1D04906E-DE43-4DFE-9ECA-7F18456CAA37}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

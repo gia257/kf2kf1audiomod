@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95F03577-377A-4B9F-A6AA-9F6BA9DA3126}" SchemaVersion="70">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{95F03577-377A-4B9F-A6AA-9F6BA9DA3126}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{0D405ADF-91ED-4C17-A262-30F8AE47E5D5}" ShortID="102776197">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="UI_Volume_Master" ID="{6288893C-A75F-4176-921A-AE5037CD516F}" WorkUnitID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{024387C6-9842-4D6A-99F5-1A29AAE11BA9}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{E48A4CAB-3CD8-47CE-8CFC-BD9CD6F95148}" ShortID="159908834">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GrenadeFX" ID="{1C74F08A-5C21-4C58-BE1B-1707C04CEAE5}" WorkUnitID="{FEBF4C87-6F54-4516-A137-1D0C8444BEFF}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{DD90722D-E3B1-4B40-89FF-05433DEE440B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>10.0346</XPos>
+												<YPos>-5.81029</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Effect0">
+							<Custom CreatedFrom="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}">
+								<Effect Name="Brick_Wall_Minus_1dB_Peak_Fast_Release (Define custom)" ID="{9BE58F60-2993-48FD-9AAE-85FC2E2C71E7}" ShortID="852202005" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+									<PropertyList>
+										<Property Name="LookAhead" Type="Real32" Value="0.02"/>
+										<Property Name="Ratio" Type="Real32" Value="20"/>
+										<Property Name="ReleaseTime" Type="Real32" Value="0.05"/>
+										<Property Name="Threshold" Type="Real32" Value="-10">
+											<RTPCList>
+												<RTPC Name="" ID="{FEDD85AC-A5F4-44F6-838F-5483EDAE11B6}" ShortID="815968492">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="UI_Volume_SFX" ID="{D1201C74-55F6-4AD0-9263-66C6986CC0AE}" WorkUnitID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6B6B5FE6-DB9C-43BD-BD8F-9CD1F46B7BA6}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>23.81546</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-6</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="HDR" ID="{8BD1C5DA-DCFE-4250-A3C5-BF0DA8E941FE}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{C09AC45F-0BD0-4B9A-9B06-9F70C9A44E98}" ShortID="627592858">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="UI_Volume_SFX" ID="{D1201C74-55F6-4AD0-9263-66C6986CC0AE}" WorkUnitID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A2D31700-22BF-4C1A-9F0F-8E61920578E4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.63139</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{6EC97974-2475-4A03-BEF8-387C2C366B55}" ShortID="830991505">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GrenadeFX" ID="{1C74F08A-5C21-4C58-BE1B-1707C04CEAE5}" WorkUnitID="{FEBF4C87-6F54-4516-A137-1D0C8444BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{77041C85-0E82-4949-967E-CA97B3B021AF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10.38063</XPos>
+														<YPos>-5.90852000000001</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="HdrReleaseTime" Type="Real64">
+									<ValueList>
+										<Value>0.5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrThreshold" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+										<State Name="Custom State" ID="{1D79BE73-356F-4EA0-9F91-935D85F4E697}" ShortID="1042108459">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+										<State Name="Custom State" ID="{C4CA89CB-E65F-4A90-BED3-D34F63819DC3}" ShortID="10314782">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-8"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{AB86FA9E-EA00-4297-9220-252E45E07E8D}"/>
+										<State Name="Custom State" ID="{2A1C463A-AD81-4C2E-822F-F620AE7849CA}" ShortID="957685520">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="UI" ID="{6FF1904A-E424-45F4-8F3A-DDB65FB182CD}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{2A41A1C9-91D7-4DD9-B044-551CAB45D6DC}" ShortID="793673358">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GrenadeFX" ID="{1C74F08A-5C21-4C58-BE1B-1707C04CEAE5}" WorkUnitID="{FEBF4C87-6F54-4516-A137-1D0C8444BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C155B8D7-C0FC-4612-85DC-DC01E0870F4E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>30.02681</XPos>
+														<YPos>-12.30579</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>69.91551</XPos>
+														<YPos>-11.53865</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1.74301</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{669A9FEA-50DF-4CF5-89A5-F78A8A1A3881}" ShortID="995436724">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="UI_Volume_SFX" ID="{D1201C74-55F6-4AD0-9263-66C6986CC0AE}" WorkUnitID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{109E48A0-75C6-48B6-9213-42E6342BE84E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.49877</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-2"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="MUS" ID="{149B0320-41FC-434A-B433-40F050252D31}"/>
+									<DuckingParam>
+										<Volume>-0.100000001490116</Volume>
+										<FadeInTime>0.100000001490116</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeLog3</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="MUS" ID="{149B0320-41FC-434A-B433-40F050252D31}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{556A14C3-F3B5-45E0-A825-457504936D82}" ShortID="546271480">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Zedtime_Modifier" ID="{A572DA60-BC37-444D-A59D-0A5BDE795BE1}" WorkUnitID="{53530539-3F9B-42FD-B043-5C9C1184EE45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4195C514-55BE-4D49-AF58-19663ABE9E9E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-12.31523</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{ABE871D2-B353-4A94-BEB7-C997A11838BD}" ShortID="813122003">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="UI_Volume_Music" ID="{360F1C5F-0D4A-4962-9CB2-3B1E4515BAFB}" WorkUnitID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{988974E3-965E-4A8D-B8A9-29E6CA4F6E33}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>4</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="HdrEnable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrThreshold" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-0.7"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="MUS MENU" ID="{37ECE515-E5D1-47DD-A7EF-9ED44CF479DD}"/>
+								<Bus Name="MUS AMB" ID="{8B2E4AD0-0313-438A-9884-C69DCBA191A2}"/>
+								<Bus Name="MUS ACT" ID="{A23CD561-1283-488E-9208-DCB5E719ED6E}"/>
+								<Bus Name="MUS STING" ID="{DE5D740F-798D-4894-A656-DD194FFF26F4}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="-2"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="VOX" ID="{19543176-D5A8-4306-A00A-E61C2A9D2908}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>1.5</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{82708253-F409-494D-A084-39FD1F1E78D9}" ShortID="457249743">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GrenadeFX" ID="{1C74F08A-5C21-4C58-BE1B-1707C04CEAE5}" WorkUnitID="{FEBF4C87-6F54-4516-A137-1D0C8444BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{02B15EA0-A6EC-4595-97DA-134DFAFA6F37}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10.38063</XPos>
+														<YPos>-5.90852000000001</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{CA9B29C3-1DFA-48E6-AF95-F4512E3BB21E}" ShortID="598393478">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="UI_Volume_Voice" ID="{E8A3AB84-51CE-4C95-9B8D-BAAF21495038}" WorkUnitID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{97AF5E06-73F6-4ABA-A416-71F4098035B4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>4.2308</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-6"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{663219DB-164B-4288-BE34-CB8C50ABF6AA}" ShortID="178710961">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Zedtime_Modifier" ID="{A572DA60-BC37-444D-A59D-0A5BDE795BE1}" WorkUnitID="{53530539-3F9B-42FD-B043-5C9C1184EE45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0ED56512-BFCC-437D-B9B7-A30B83C81CDA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1340</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+										<State Name="Custom State" ID="{6359DC1A-B37B-4F8A-9B19-CB5B24B3E05F}" ShortID="969040946">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+										<State Name="Custom State" ID="{87038B4A-9A69-4CA9-848C-14935DE941AF}" ShortID="745080466">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-8"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{AB86FA9E-EA00-4297-9220-252E45E07E8D}"/>
+										<State Name="Custom State" ID="{FBA7936D-C82E-4D5D-9755-7A71BE28A59A}" ShortID="253785094">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="MUS" ID="{149B0320-41FC-434A-B433-40F050252D31}"/>
+									<DuckingParam>
+										<Volume>-0.300000011920929</Volume>
+										<FadeInTime>0.100000001490116</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeLog3</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="SFX" ID="{CA7DFE2F-24D3-4BF7-998A-C8DF8E29F23C}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{18F1CA64-0D41-475D-B119-6A19B9EAEE2E}" ShortID="586808854">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GrenadeFX" ID="{1C74F08A-5C21-4C58-BE1B-1707C04CEAE5}" WorkUnitID="{FEBF4C87-6F54-4516-A137-1D0C8444BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0DA3DF11-D984-4012-A218-3A4D59F26275}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10.14994</XPos>
+														<YPos>-5.5831</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{6C93869F-C429-45C2-8755-102716207FE9}" ShortID="561951306">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="UI_Volume_SFX" ID="{D1201C74-55F6-4AD0-9263-66C6986CC0AE}" WorkUnitID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E11D78B6-4FF7-4031-9E25-982760601BB1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.36816</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-2"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Environmental FX" ID="{F9B00FCF-F8C7-4466-8BA3-A3BE88E5F5CF}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-0.5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HdrEnable" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HdrReleaseTime" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ChildrenList>
+										<AuxBus Name="Indoor_Large" ID="{1D706CC2-E7C8-4EAF-B676-44626840973E}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}">
+														<Effect Name="Room_Large (Define custom)" ID="{22D781FB-7B4C-4AD0-8E83-58914E7D0CE9}" ShortID="455688861" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<PropertyList>
+																<Property Name="DecayTime" Type="Real32" Value="1.8"/>
+																<Property Name="Density" Type="Real32" Value="70"/>
+																<Property Name="Diffusion" Type="Real32" Value="46"/>
+																<Property Name="ERLevel" Type="Real32" Value="-23"/>
+																<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+																<Property Name="HFDamping" Type="Real32" Value="2.7"/>
+																<Property Name="PreDelay" Type="Real32" Value="35"/>
+																<Property Name="Quality" Type="int32" Value="12"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+																<Property Name="RoomShape" Type="Real32" Value="55"/>
+																<Property Name="RoomSize" Type="Real32" Value="15"/>
+																<Property Name="StereoWidth" Type="Real32" Value="140"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="Indoor_Medium" ID="{0C5C6B9E-7385-4E89-9C9F-D50CC5DB0D0E}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}">
+														<Effect Name="Room_Medium (Define custom)" ID="{5F381A15-7503-4DD7-876A-8290B974F5D7}" ShortID="101805733" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<PropertyList>
+																<Property Name="DecayTime" Type="Real32" Value="1.1"/>
+																<Property Name="Density" Type="Real32" Value="100"/>
+																<Property Name="Diffusion" Type="Real32" Value="46"/>
+																<Property Name="ERLevel" Type="Real32" Value="-23"/>
+																<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+																<Property Name="HFDamping" Type="Real32" Value="2.7"/>
+																<Property Name="Quality" Type="int32" Value="12"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+																<Property Name="RoomShape" Type="Real32" Value="55"/>
+																<Property Name="RoomSize" Type="Real32" Value="15"/>
+																<Property Name="StereoWidth" Type="Real32" Value="115"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="Indoor_Small" ID="{B9E8F51D-8A1F-4102-9EC8-F7B62609A84F}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{577F1466-A63B-47F7-98BD-C56E433F8B5D}">
+														<Effect Name="Room_Small (Define custom)" ID="{85840F56-7DB9-41A0-BA65-C93F5D16573D}" ShortID="890830290" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<PropertyList>
+																<Property Name="DecayTime" Type="Real32" Value="0.7"/>
+																<Property Name="Density" Type="Real32" Value="44"/>
+																<Property Name="Diffusion" Type="Real32" Value="46"/>
+																<Property Name="ERLevel" Type="Real32" Value="-23"/>
+																<Property Name="ERPattern" Type="int32" Value="22"/>
+																<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+																<Property Name="HFDamping" Type="Real32" Value="2.7"/>
+																<Property Name="PreDelay" Type="Real32" Value="12"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+																<Property Name="RoomShape" Type="Real32" Value="55"/>
+																<Property Name="RoomSize" Type="Real32" Value="15"/>
+																<Property Name="StereoWidth" Type="Real32" Value="90"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="Outdoor_City" ID="{2AA27793-639E-4B1A-814F-FF9EEF97181F}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
+														<Effect Name="Holy (Define custom)" ID="{5A33EA35-D991-43E3-849B-ABC981FD8D37}" ShortID="365616097" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<PropertyList>
+																<Property Name="DecayTime" Type="Real32" Value="8"/>
+																<Property Name="Density" Type="Real32" Value="70"/>
+																<Property Name="ERLevel" Type="Real32" Value="-24"/>
+																<Property Name="ERPattern" Type="int32" Value="9"/>
+																<Property Name="Filter1Freq" Type="Real32" Value="490"/>
+																<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
+																<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+																<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
+																<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+																<Property Name="HFDamping" Type="Real32" Value="5.7"/>
+																<Property Name="PreDelay" Type="Real32" Value="180"/>
+																<Property Name="Quality" Type="int32" Value="14"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+																<Property Name="RoomSize" Type="Real32" Value="100"/>
+																<Property Name="StereoWidth" Type="Real32" Value="172"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="Outdoor_Forest" ID="{FD1191F7-37EB-4A74-A080-76A7D76AF331}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+														<Effect Name="Have_U_Ever_Been_Outside (Define custom)" ID="{57B64353-EDA7-433F-83B6-D6DD98B88E36}" ShortID="497399513" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<PropertyList>
+																<Property Name="DecayTime" Type="Real32" Value="1"/>
+																<Property Name="Density" Type="Real32" Value="50"/>
+																<Property Name="ERLevel" Type="Real32" Value="-18"/>
+																<Property Name="ERPattern" Type="int32" Value="29"/>
+																<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+																<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+																<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+																<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+																<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+																<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+																<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+																<Property Name="PreDelay" Type="Real32" Value="145"/>
+																<Property Name="Quality" Type="int32" Value="12"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
+																<Property Name="RoomSize" Type="Real32" Value="73"/>
+																<Property Name="StereoWidth" Type="Real32" Value="28"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="Outdoor_Mountain" ID="{8F481895-223E-48E6-99F0-FBA5A2D47E65}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+														<Effect Name="Have_U_Ever_Been_Outside (Define custom)" ID="{21685FDF-EEFB-498F-BE6E-A83C9B2CFE90}" ShortID="886493577" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<PropertyList>
+																<Property Name="DecayTime" Type="Real32" Value="1"/>
+																<Property Name="Density" Type="Real32" Value="50"/>
+																<Property Name="ERLevel" Type="Real32" Value="-18"/>
+																<Property Name="ERPattern" Type="int32" Value="29"/>
+																<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+																<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+																<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+																<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+																<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+																<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+																<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+																<Property Name="PreDelay" Type="Real32" Value="145"/>
+																<Property Name="Quality" Type="int32" Value="12"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
+																<Property Name="RoomSize" Type="Real32" Value="73"/>
+																<Property Name="StereoWidth" Type="Real32" Value="28"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+												<State Name="Custom State" ID="{46F966EE-5616-4A99-AE71-7602ACBB6462}" ShortID="963525911">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+												<State Name="Custom State" ID="{C942CD07-4D06-4F63-AAA2-F3547859D077}" ShortID="550674994">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Paused" ID="{AB86FA9E-EA00-4297-9220-252E45E07E8D}"/>
+												<State Name="Custom State" ID="{BED2F416-041B-45D8-BC81-B72078E3220C}" ShortID="412732745">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="ZED" ID="{5EBC3716-5B54-46BE-87C9-9C86CB50E538}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="-6"/>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{52BDDCD1-6113-4C3C-A686-955C67E24223}" ShortID="614509007">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Zedtime_Modifier" ID="{A572DA60-BC37-444D-A59D-0A5BDE795BE1}" WorkUnitID="{53530539-3F9B-42FD-B043-5C9C1184EE45}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{0A6B7AF8-1D4C-4748-B262-1521EE248432}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-1371</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Impacts" ID="{4FE0145A-B95E-4376-A290-D7448BD77668}">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+										<Bus Name="ZEDGrabFXYes" ID="{606A5B3B-11D0-436C-92BE-767D75D05517}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-0.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+										<Bus Name="ZEDGrabFXNo" ID="{83236EBB-3188-4306-830C-79F99701DA7A}"/>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+												<State Name="Custom State" ID="{58D480A1-F81F-4BE4-A06E-DF7268DA0A15}" ShortID="568671051">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+												<State Name="Custom State" ID="{2C0CC25C-1F85-4AD2-821E-EE10962AF2A6}" ShortID="82203696">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Paused" ID="{AB86FA9E-EA00-4297-9220-252E45E07E8D}"/>
+												<State Name="Custom State" ID="{4AAFA146-878C-459E-8F15-E5A8E584FF4E}" ShortID="777417203">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="PC" ID="{A43FA5FE-112C-4CC8-AEB3-BA9C24068F07}">
+									<Comment>player character</Comment>
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{4D3B7801-5263-4C4E-8D44-5338563577CC}" ShortID="795057738">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Zedtime_Modifier" ID="{A572DA60-BC37-444D-A59D-0A5BDE795BE1}" WorkUnitID="{53530539-3F9B-42FD-B043-5C9C1184EE45}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A87DF206-7D50-4980-8F5C-2949D4D54C1C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-1371</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+												<State Name="Custom State" ID="{2EE9F78D-4D9F-44AA-BF3F-19900971B5C9}" ShortID="278298759">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+												<State Name="Custom State" ID="{763C567A-34E4-4291-8065-C913ED03CCFA}" ShortID="178882903">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Paused" ID="{AB86FA9E-EA00-4297-9220-252E45E07E8D}"/>
+												<State Name="Custom State" ID="{84050AE9-A082-4852-8AF7-E5D72EB6E5C2}" ShortID="54055999">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="ENV" ID="{26765DAC-C40F-4812-B13B-C72867D83223}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-0.5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HdrEnable" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HdrReleaseTime" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+												<State Name="Custom State" ID="{510CDA35-DB2C-4A19-9381-F395BFD4F5CE}" ShortID="1044251375">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+												<State Name="Custom State" ID="{3CA24B93-48EE-44E0-BE40-C3983D711944}" ShortID="317189393">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Paused" ID="{AB86FA9E-EA00-4297-9220-252E45E07E8D}"/>
+												<State Name="Custom State" ID="{CFEA5FFA-8059-4CED-896D-F545E77B1644}" ShortID="658092647">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="WEP" ID="{D4507A73-2C06-4D1D-B443-4F28FD16BB9E}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="-1"/>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{1D310EC0-B568-4F98-A91D-0D3E521B7D9C}" ShortID="378692669">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Zedtime_Modifier" ID="{A572DA60-BC37-444D-A59D-0A5BDE795BE1}" WorkUnitID="{53530539-3F9B-42FD-B043-5C9C1184EE45}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7B0017B0-92C3-49B8-9320-7456B9F3310B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-1192</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="WEP Fire 3P" ID="{B8896339-33A6-4656-A650-3590C0D058A6}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-0.5</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-6"/>
+												<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+											</PropertyList>
+											<DuckingList>
+												<DuckItem>
+													<BusRef Name="MUS" ID="{149B0320-41FC-434A-B433-40F050252D31}"/>
+													<DuckingParam>
+														<Volume>-0.100000001490116</Volume>
+														<FadeInTime>0.100000001490116</FadeInTime>
+														<FadeOutTime>0.100000001490116</FadeOutTime>
+														<FadeCurve>FadeLog3</FadeCurve>
+													</DuckingParam>
+												</DuckItem>
+											</DuckingList>
+										</Bus>
+										<Bus Name="WEP Echo" ID="{29959F30-1CAA-4830-92BE-62B5ADC68406}">
+											<PropertyList>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-2"/>
+												<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+											</PropertyList>
+										</Bus>
+										<Bus Name="WEP_Exp" ID="{1BD93ECC-01E7-484E-8875-14449923A0D9}"/>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+												<State Name="Custom State" ID="{D8687A20-390B-43AC-B435-C42351B37171}" ShortID="748402338">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+												<State Name="Custom State" ID="{816785B4-93CF-4F9A-BD8A-62333A0D8890}" ShortID="871704888">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Paused" ID="{AB86FA9E-EA00-4297-9220-252E45E07E8D}"/>
+												<State Name="Custom State" ID="{5156D96F-40C9-4984-9B0F-DD1D68B3700B}" ShortID="289487621">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="MUS" ID="{149B0320-41FC-434A-B433-40F050252D31}"/>
+											<DuckingParam>
+												<Volume>-0.5</Volume>
+												<FadeInTime>0.100000001490116</FadeInTime>
+												<FadeOutTime>0.100000001490116</FadeOutTime>
+												<FadeCurve>FadeLog3</FadeCurve>
+												<TargetProp>BusVolume</TargetProp>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="Skin_Impacts" ID="{9535161F-C6BF-464D-AF21-D5CEF503D031}">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{9A64F466-4ED6-46BF-A1A9-E007CBBCFB0F}" ShortID="876650505">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Zedtime_Modifier" ID="{A572DA60-BC37-444D-A59D-0A5BDE795BE1}" WorkUnitID="{53530539-3F9B-42FD-B043-5C9C1184EE45}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{5456E82F-A45F-4C31-9705-D6507684B398}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-1133</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="WEP_No_ZT" ID="{523260D5-A980-4741-A276-C55A5F927B89}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="VOX_Trader" ID="{62FC6914-1DB7-4E5F-A86B-5FA1E9D8B406}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{83F8A2B2-E05D-4D28-BB50-ECE86A127222}" ShortID="836541407">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="UI_Volume_Voice" ID="{E8A3AB84-51CE-4C95-9B8D-BAAF21495038}" WorkUnitID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{70E2A762-76F1-4C20-953E-A1402079377D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>4.07161</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="DivergenceCenter" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="EnablePositioning" Type="bool" Value="True"/>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-1"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<PositioningInfo>
+								<Panner Name="" ID="{BF4BC4C5-ED75-4F2C-9382-1BDA3261E4ED}"/>
+							</PositioningInfo>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="MUS" ID="{149B0320-41FC-434A-B433-40F050252D31}"/>
+									<DuckingParam>
+										<Volume>-1</Volume>
+										<FadeInTime>0.100000001490116</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeLog3</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="SFX" ID="{CA7DFE2F-24D3-4BF7-998A-C8DF8E29F23C}"/>
+									<DuckingParam>
+										<Volume>-1</Volume>
+										<FadeInTime>0.100000001490116</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeLog3</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="VOX" ID="{19543176-D5A8-4306-A00A-E61C2A9D2908}"/>
+									<DuckingParam>
+										<Volume>-0.5</Volume>
+										<FadeInTime>0.100000001490116</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeLog3</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="WEP" ID="{D4507A73-2C06-4D1D-B443-4F28FD16BB9E}"/>
+									<DuckingParam>
+										<Volume>-1</Volume>
+										<FadeInTime>0.100000001490116</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeLog3</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="WEP_No_ZT" ID="{523260D5-A980-4741-A276-C55A5F927B89}"/>
+									<DuckingParam>
+										<Volume>-1</Volume>
+										<FadeInTime>0.100000001490116</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeLog3</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Voice" ID="{9371002A-FDA1-4137-8111-B82F81742E43}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{A58A0005-72CE-4C7C-8492-D4F038C3C343}" ShortID="1039980986">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GrenadeFX" ID="{1C74F08A-5C21-4C58-BE1B-1707C04CEAE5}" WorkUnitID="{FEBF4C87-6F54-4516-A137-1D0C8444BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5D89624D-88B4-41C7-AE71-66E9530C1FB4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10</XPos>
+														<YPos>-6</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{AC989FC2-4315-429B-9271-2B86387F71FF}" ShortID="830913638">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="UI_Volume_Voice" ID="{E8A3AB84-51CE-4C95-9B8D-BAAF21495038}" WorkUnitID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7B3ADFF0-5C36-48A2-B227-0693C511526B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>4.05694</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-6"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{C0CF06E2-1FCC-4E30-A6A3-E51CF3414EB2}" ShortID="605840853">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Zedtime_Modifier" ID="{A572DA60-BC37-444D-A59D-0A5BDE795BE1}" WorkUnitID="{53530539-3F9B-42FD-B043-5C9C1184EE45}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6BD79ACE-A17E-40E1-AD9D-4C7E159A9E8C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1340</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+										<State Name="Custom State" ID="{5611F958-103F-465D-9F19-5345B69B3AF3}" ShortID="902286013">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+										<State Name="Custom State" ID="{BEB4B707-08E6-4255-8F21-06FA61C47591}" ShortID="1069712485">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-8"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{AB86FA9E-EA00-4297-9220-252E45E07E8D}"/>
+										<State Name="Custom State" ID="{DA3B6DB3-8190-4727-9F61-7DB5C9D272F8}" ShortID="1003649251">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="MUS" ID="{149B0320-41FC-434A-B433-40F050252D31}"/>
+									<DuckingParam>
+										<Volume>-0.300000011920929</Volume>
+										<FadeInTime>0.100000001490116</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeLog3</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Unfocused" ID="{582C0E8F-90BD-4331-93FC-81D2BB48FDDD}"/>
+								<State Name="Custom State" ID="{E089B6CA-3262-49A7-BA1D-4D10D3F3314E}" ShortID="678068504">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64" Value="-96"/>
+									</PropertyList>
+								</State>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
+				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{09DE2AEB-8536-4AD5-B034-E7C51F9960E5}" SchemaVersion="70">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{09DE2AEB-8536-4AD5-B034-E7C51F9960E5}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}">
+					<ChildrenList>
+						<State Name="None" ID="{894D91AE-A889-4DE7-8BC1-74F061C2DD9D}"/>
+						<State Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+						<State Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+						<State Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+						<State Name="Paused" ID="{AB86FA9E-EA00-4297-9220-252E45E07E8D}"/>
+						<State Name="Unfocused" ID="{582C0E8F-90BD-4331-93FC-81D2BB48FDDD}">
+							<Comment>When the game window is not the current window</Comment>
+						</State>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							<EndState Name="Unfocused" ID="{582C0E8F-90BD-4331-93FC-81D2BB48FDDD}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+							<EndState Name="Unfocused" ID="{582C0E8F-90BD-4331-93FC-81D2BB48FDDD}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+							<EndState Name="Unfocused" ID="{582C0E8F-90BD-4331-93FC-81D2BB48FDDD}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{894D91AE-A889-4DE7-8BC1-74F061C2DD9D}"/>
+							<EndState Name="Unfocused" ID="{582C0E8F-90BD-4331-93FC-81D2BB48FDDD}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Paused" ID="{AB86FA9E-EA00-4297-9220-252E45E07E8D}"/>
+							<EndState Name="Unfocused" ID="{582C0E8F-90BD-4331-93FC-81D2BB48FDDD}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<WorkUnit Name="ENV" ID="{7361FB91-FDED-4BFE-8103-F0F9C14441FC}" PersistMode="Reference"/>
+				<StateGroup Name="Level" ID="{0CC668AD-8632-4356-B46D-6F53B4B4FEE3}">
+					<ChildrenList>
+						<State Name="None" ID="{3D14E121-FDBF-4C6A-9411-AC511F573F69}"/>
+						<State Name="BioticsLab" ID="{7494B9AF-24C2-4782-B13B-0C39AD6FD1B5}"/>
+						<State Name="Manor" ID="{EA5A8D73-CB63-4E2D-8C39-8A1F0DF47846}"/>
+						<State Name="Outpost" ID="{0CC6F1AF-FF89-4E87-B84C-5A1D32DFF728}"/>
+						<State Name="Paris" ID="{1D04906E-DE43-4DFE-9ECA-7F18456CAA37}"/>
+						<State Name="Catacombs" ID="{9D5139C0-8626-474C-9F12-03F21E7FDFA9}"/>
+						<State Name="EvacPoint" ID="{05B44697-2292-4A61-BABB-0827BAF329B2}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="BossPhase" ID="{922FAC45-234A-4155-AB0E-4BFEC91E252F}">
+					<ChildrenList>
+						<State Name="None" ID="{D3E904C5-86AE-448D-A913-4AD38C52A8C1}"/>
+						<State Name="Phase1" ID="{1347C399-36A0-45C2-9586-0B6CBD40B2C1}"/>
+						<State Name="Phase2" ID="{88C5B20C-BB70-41C1-9609-0F846D946ECD}"/>
+						<State Name="Phase3" ID="{9FA4C793-0471-49F0-B806-C2B64BD664DD}"/>
+						<State Name="Phase4" ID="{3787C6FE-B6F8-466B-A318-8E2BFFD76339}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

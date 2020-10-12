@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BD97F7D9-0BF7-42A3-BB4A-349F2E2DD34F}" SchemaVersion="70" RootDocumentID="{53530539-3F9B-42FD-B043-5C9C1184EE45}">
+	<GameParameters>
+		<WorkUnit Name="GP_Global" ID="{BD97F7D9-0BF7-42A3-BB4A-349F2E2DD34F}" OwnerID="{53530539-3F9B-42FD-B043-5C9C1184EE45}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="PositioningType" ID="{8992BD16-DF99-464E-A79E-17BC79BD1457}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

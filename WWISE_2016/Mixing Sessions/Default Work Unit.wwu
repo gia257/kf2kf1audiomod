@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{62AA7467-E1B9-4DEF-8AEA-A66A0D1B3F42}" SchemaVersion="70">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{62AA7467-E1B9-4DEF-8AEA-A66A0D1B3F42}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="New Mixing Session" ID="{5B2540C4-790B-4ACF-B00D-89263FB448B3}">
+					<ObjectList>
+						<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

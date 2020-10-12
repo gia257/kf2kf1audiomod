@@ -1,0 +1,45 @@
+Project migration to XML Schema (XSD) version 63 is completed.
+Project migration to XML Schema (XSD) version 64 is completed.
+Project migration to XML Schema (XSD) version 65 is completed.
+Project migration to XML Schema (XSD) version 66 is completed.
+Project migration to XML Schema (XSD) version 67 is completed.
+Project migration to XML Schema (XSD) version 68 is completed.
+Project migration to XML Schema (XSD) version 69 is completed.
+Project migration to XML Schema (XSD) version 70 is completed.
+Some of the project's properties have been unlinked and/or otherwise fixed.
+'\Conversion Settings\Default Work Unit\Default Conversion Settings' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Default Work Unit\Default Conversion Settings' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Auto Detect High' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Auto Detect High' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Auto Detect Low' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Auto Detect Low' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Auto Detect Medium' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Auto Detect Medium' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Quality High' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Quality High' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Quality Low' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Quality Low' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Quality Medium' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\Vorbis\Vorbis Quality Medium' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\PCM\PCM As Input' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\PCM\PCM As Input' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\PCM\PCM Auto Detect Low' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\PCM\PCM Auto Detect Low' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\PCM\PCM Auto Detect Medium' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\PCM\PCM Auto Detect Medium' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\PCM\PCM Auto Detect High' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\PCM\PCM Auto Detect High' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\ADPCM\ADPCM As Input' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\ADPCM\ADPCM As Input' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\ADPCM\ADPCM Auto Detect Low' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\ADPCM\ADPCM Auto Detect Low' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\ADPCM\ADPCM Auto Detect Medium' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\ADPCM\ADPCM Auto Detect Medium' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\ADPCM\ADPCM Auto Detect High' has no conversion plugin set for Linux platform. The default conversion plugin 'PCM' will be used.
+'\Conversion Settings\Factory Conversion Settings\ADPCM\ADPCM Auto Detect High' has no conversion plugin set for WindowsPhone platform. The default conversion plugin 'PCM' will be used.
+The default work unit '\Modulators\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Control Surface Sessions\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The environmental curve 'Obstruction HPF' is missing. A default curve has been created.
+The environmental curve 'Occlusion HPF' is missing. A default curve has been created.
+Some new object properties have been added or obsolete properties deleted. The project file was updated. These changes will not have an impact on your project.
+Properties related to Platform(s) "'3DS, PS3, PS4, VitaHW, VitaSW, Wii, WiiUSW, Xbox360, XboxOne'" were detected and removed from project as they were unreferenced. This could happen if you migrated a project from a previous version where some platforms were disabled. Disabled platforms are unavailable as they are being replaced by custom platforms. If you wanted to keep information relative to disabled platforms, enable them before performing migration.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{49C31648-939C-4213-ADA6-BF216B765C70}" SchemaVersion="70">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{49C31648-939C-4213-ADA6-BF216B765C70}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Time_Stretch" ID="{36BF8EC8-713D-4A46-B050-A043EC79F0BA}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="TimeStretch" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{BB0B6BB9-E76E-4C6D-9C29-A2FF626925D7}" ShortID="139941005">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Zedtime_Modifier" ID="{A572DA60-BC37-444D-A59D-0A5BDE795BE1}" WorkUnitID="{53530539-3F9B-42FD-B043-5C9C1184EE45}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1A5C4665-491A-4F4B-AEF9-5464D3D9B8FE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>400</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

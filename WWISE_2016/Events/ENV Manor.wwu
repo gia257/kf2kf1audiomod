@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2CAAD3B8-CD62-469F-8602-A88EEA1422EB}" SchemaVersion="70" RootDocumentID="{67F11269-9613-4745-9B57-1E0DCE5B024B}">
+	<Events>
+		<WorkUnit Name="ENV Manor" ID="{2CAAD3B8-CD62-469F-8602-A88EEA1422EB}" OwnerID="{67F11269-9613-4745-9B57-1E0DCE5B024B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_ENV_Manor_Rain_Loop" ID="{33D54F7F-A0D7-4801-BE65-8CA492C72665}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{E9035DEE-C3E0-42EF-818B-DAD4164F5062}" ShortID="299684181" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Level" ID="{0CC668AD-8632-4356-B46D-6F53B4B4FEE3}"/>
+								<GroupItem Name="Manor" ID="{EA5A8D73-CB63-4E2D-8C39-8A1F0DF47846}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{F259C5CF-F12C-4108-AB7A-53FD06F846DB}" ShortID="915635428" Type="SetState" Scope="All" Global="true">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+							</ExcludedPlatformList>
+							<SetItemParam>
+								<Group Name="ENV_Paris_Location" ID="{1EBBCA3B-758E-4C34-928D-5CA1099F238A}"/>
+								<GroupItem Name="None" ID="{FA1E1FEA-29F9-4F0C-8C45-0FFEE180258F}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ENV_Manor_Thunder" ID="{DBA7D8F5-2653-4416-BFEC-7F10D879CF4D}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{B8761A3A-9B76-431C-B418-C66768902A3E}" ShortID="405885455" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Level" ID="{0CC668AD-8632-4356-B46D-6F53B4B4FEE3}"/>
+								<GroupItem Name="Manor" ID="{EA5A8D73-CB63-4E2D-8C39-8A1F0DF47846}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{283497E2-6E6E-4677-A7ED-631343FF2B6A}" ShortID="902313872" Type="SetState" Scope="All" Global="true">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+							</ExcludedPlatformList>
+							<SetItemParam>
+								<Group Name="ENV_Paris_Location" ID="{1EBBCA3B-758E-4C34-928D-5CA1099F238A}"/>
+								<GroupItem Name="None" ID="{FA1E1FEA-29F9-4F0C-8C45-0FFEE180258F}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

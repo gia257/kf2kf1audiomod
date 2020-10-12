@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9A8032D7-E270-428A-8AA0-5D6AF42258F7}" SchemaVersion="70">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{9A8032D7-E270-428A-8AA0-5D6AF42258F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Environment_Reverb" ID="{C79C3096-2FCD-4EE2-A78E-F7A0616057F2}">
+					<ChildrenList>
+						<Switch Name="Indoor_Large" ID="{29FD04B4-EC55-49BE-A209-A71A3517B8B5}"/>
+						<Switch Name="Indoor_Medium" ID="{D6452392-07B7-46A7-8DEE-65121C444BAB}"/>
+						<Switch Name="Indoor_Small" ID="{7DDDD966-9FFE-4B1F-8A35-DD9C4AA88C0A}"/>
+						<Switch Name="Outdoor_City" ID="{B5A5F437-8DF4-4272-B25F-50712FEEFF56}"/>
+						<Switch Name="Outdoor_Forest" ID="{C7FF96CB-2C94-42B2-B7E3-A18C20C0FD0C}"/>
+						<Switch Name="Outdoor_Mountain" ID="{A1C4CA63-960F-4A9C-AC0D-72662A3A96FC}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Materials" ID="{3EA9017F-0B49-47BA-830F-1DD833B9537C}">
+					<ChildrenList>
+						<Switch Name="Brick" ID="{3093AD70-E915-4EFC-B3C4-850F74309277}"/>
+						<Switch Name="Default" ID="{067C63DF-D983-4E2A-AD34-EF7578A35D4E}"/>
+						<Switch Name="Dirt" ID="{1E7F016D-97CB-4DE7-B641-0FD14603EBD5}"/>
+						<Switch Name="Flesh" ID="{124BA164-1D2D-4C14-9137-8EF687B914FC}"/>
+						<Switch Name="Glass" ID="{E202A81D-0E27-4139-B246-6CD35722046C}"/>
+						<Switch Name="Grass" ID="{C5534BBB-B813-49B7-AC75-4042C7D59ED9}"/>
+						<Switch Name="Metal" ID="{CD97293B-0481-4ECD-97D0-A5FEDB2AC980}"/>
+						<Switch Name="Metal_Hollow" ID="{046A241D-E42C-426A-944B-07188017E923}"/>
+						<Switch Name="Mud" ID="{87631830-DA36-4E86-BEAF-197D37D90322}"/>
+						<Switch Name="Rubber" ID="{365B0CE9-651F-45BF-BBAD-EE94F2A968EC}"/>
+						<Switch Name="Snow" ID="{F477CACC-B951-488D-B8E8-C28FF77C1EE3}"/>
+						<Switch Name="Stone" ID="{299F42A7-6273-44AD-B363-5C09B7FD1522}"/>
+						<Switch Name="Water" ID="{1D784BB0-6EA5-4B1C-8D2D-7A0E076DD57D}"/>
+						<Switch Name="Wood" ID="{F9A2CF29-734D-497C-B295-A1AEB773DABB}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="TOD" ID="{FA135563-F3B9-4ABE-87BE-984868422155}">
+					<Comment>Time of Day (Day/Night)</Comment>
+					<ChildrenList>
+						<Switch Name="Day" ID="{C22CB498-87F1-44EB-82DA-382D66D3BBD6}"/>
+						<Switch Name="Night" ID="{C07FD36D-DA29-47A4-B46B-4342F2FF3901}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{86A34A8B-74E7-4CE4-8F35-FA47AAEA72B7}" SchemaVersion="70" RootDocumentID="{0AAC0956-5181-4AF6-B6D9-B45AF18602D7}">
+	<Events>
+		<WorkUnit Name="MUS MNU" ID="{86A34A8B-74E7-4CE4-8F35-FA47AAEA72B7}" OwnerID="{0AAC0956-5181-4AF6-B6D9-B45AF18602D7}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Stop_MMNU_Login" ID="{1759BCB4-7CD8-4F8F-8797-88519975F312}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{3D215DF6-6D50-44CB-B7CC-967C68DB7F1C}" ShortID="695506878" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{23A9947B-41EC-4D53-AF7B-7E62BBFD19E5}" Global="false">
+									<ObjectRef Name="MMNU Login" ID="{9F714E67-BDAA-44C2-AE30-47BFE9BD6FBB}" WorkUnitID="{33A4BF3C-12A8-4DCB-A9CA-7E2F6F813A3A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{949B9E1A-6BEA-4886-AB9E-660116E1D754}" ShortID="996183218" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="None" ID="{894D91AE-A889-4DE7-8BC1-74F061C2DD9D}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MMNU_Login" ID="{0B6FEE0A-BA35-42BA-ADC8-4B6FA53D5937}">
+					<ChildrenList>
+						<Action Name="Play" ID="{169E8C0A-2E76-45CA-99F4-DC937BC5DE49}" ShortID="185506078" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B2F2D2D2-1C50-44AE-8C4E-751121A16A54}" Global="false">
+									<ObjectRef Name="MMNU Login" ID="{9F714E67-BDAA-44C2-AE30-47BFE9BD6FBB}" WorkUnitID="{33A4BF3C-12A8-4DCB-A9CA-7E2F6F813A3A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{5366EB5E-081F-404D-AE95-4686507A2A54}" ShortID="849024278" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Level" ID="{0CC668AD-8632-4356-B46D-6F53B4B4FEE3}"/>
+								<GroupItem Name="None" ID="{3D14E121-FDBF-4C6A-9411-AC511F573F69}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{CDEDCD81-1DAC-4A67-B9D1-BD9379750E9B}" ShortID="749324166" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InMenu" ID="{E53E986B-E314-4C01-B8DE-7B8C3D0BD5EB}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

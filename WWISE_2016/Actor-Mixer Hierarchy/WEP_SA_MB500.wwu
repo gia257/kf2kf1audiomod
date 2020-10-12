@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{73F3F9BD-8042-4EF6-9693-71BB22C41978}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="WEP_SA_MB500" ID="{73F3F9BD-8042-4EF6-9693-71BB22C41978}" PersistMode="Standalone"/>
+	</AudioObjects>
+</WwiseDocument>

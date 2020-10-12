@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7350BA17-48E0-4870-9ADD-B5EEF880AA02}" SchemaVersion="70" RootDocumentID="{0AAC0956-5181-4AF6-B6D9-B45AF18602D7}">
+	<Events>
+		<WorkUnit Name="MUS ACT" ID="{7350BA17-48E0-4870-9ADD-B5EEF880AA02}" OwnerID="{0AAC0956-5181-4AF6-B6D9-B45AF18602D7}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_MACT_DH_Ribcage" ID="{1486C754-28BD-4328-8C6A-4FF52A2B383B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8E5C7E76-8FF1-4F04-8D4D-D0616E8E2618}" ShortID="714288526" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EB5B98DC-2ECA-4A43-B59D-A3C381890E9A}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{740549EF-01BB-4CED-93C2-5B8E00BAFE9C}" ShortID="1072947412" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_SomeoneToHate" ID="{1BED95E3-953A-439E-97A9-BC12B036D87A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{15047F94-7300-4FC5-BA71-0CD8545BD9DC}" ShortID="20540956" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AE9766CF-EDDD-48F2-ABDE-2EF20EDC01A5}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{448F2092-0D42-4D4C-A513-D0A92B3C0DCA}" ShortID="420156279" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_CrossToBear_Inst" ID="{3FA3AD51-78BB-47BF-9169-52A686893AA9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BE384DBC-C61E-482E-83E7-A09CA9BCA40B}" ShortID="1050743280" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8DF869FF-E37C-4CD1-9743-9FD7C1F2A208}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{FE5FEBB7-D57C-4566-82A3-7068D4226755}" ShortID="608839519" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_LifeWar" ID="{F782E4E1-AD14-433C-BF7A-4AB4F75B044E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E4D3053E-6C44-44CA-88CE-F8BB1198D04E}" ShortID="875744010" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9CFF8065-B49E-4209-B470-1EA92C098677}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{A48E0DF9-B730-439D-BA81-C49FBB9D8AA2}" ShortID="301895602" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_Ribcage_Inst" ID="{8B17E5D0-B345-480A-AAE1-BF60EF3275F9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F9ED1C5C-A491-4E9C-B3BE-722F851A37CC}" ShortID="789660338" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6D371E78-35DF-44E1-92E0-C02BB1798211}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{5785F9DE-5093-47F9-A6C7-3CC21BEC7F2B}" ShortID="134437298" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_LS_SomethingMore" ID="{16CF9335-54F7-4F27-84BF-AD29361354D5}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{2A9D4536-29EF-4259-911C-0AEEA1CE537F}" ShortID="369412885" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DA1A2E41-3601-404C-A45A-B1C15CC97887}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_BAJ_KF2_8_Inst" ID="{1D87BC66-3B4E-4ED0-B5E4-0991D319F030}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{600CFEB6-A858-4921-97A0-A67EA673BA67}" ShortID="451441700" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AFB0FF5F-6DBB-4E89-A428-1FAE64189832}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_YourWar" ID="{68009519-3D91-41EE-BF42-5DB93FEA940B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{ADEE02E4-DBD5-482F-BB6D-93D55B3922FE}" ShortID="573231510" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0A8F34FB-D79D-4FAC-8CC4-77FBAE66E68F}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{DA9E407B-CCB5-4B1F-A7A3-9A05AD2F9899}" ShortID="61397612" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_SomeoneToHate_Inst" ID="{3A0BD4DC-4503-4DB5-AA4D-1A30297D98EF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CFC5EEE1-8BD2-44C6-9767-5A8EA1F2BB3C}" ShortID="1035332297" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F55B3459-7971-4B46-B376-D121A2CE19BD}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{04A262A8-C3AC-4C08-8502-763FDB91CFAE}" ShortID="800209546" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_ID_RavenousDisease" ID="{7ADE7F89-E0F6-4A27-8897-83D4BA78483C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{63F16FE7-1E94-4402-B151-10957C5E8156}" ShortID="869431638" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A43BDA65-741A-4CB9-AC1E-3427E1D47F53}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{077001A0-A13B-46A6-AC7F-F9A464019587}" ShortID="827731865" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_FFAK_BitterEnd" ID="{5967A56A-6289-4CD4-B3DC-D37758B5480D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DC338604-B73E-44F4-ADF0-EEC1715247AA}" ShortID="11117981" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CA477C9A-610C-4CD0-8ABF-415FE804B769}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{6027709A-026D-4372-B3B6-98B65E7C4CF6}" ShortID="116899456" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_RG_CreepingZed_Inst" ID="{3A96DF3A-CA81-4326-AC53-001E8156D41D}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{FB0DB7D8-E6A1-4DF9-B0D9-B71FD6944D78}" ShortID="645302076" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C637AA26-9871-4409-B7CD-6DA593175E8D}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_LS_HandOfTheDead" ID="{66C89178-BE94-44B8-93DC-C69277723628}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{78794D06-39F5-4867-8A69-F48FD2D2ADE7}" ShortID="667477652" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B8B11C1B-CB06-426B-9F23-04537E078EF7}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_BTA_MountainOfSouls_Inst" ID="{19311A1E-2123-4686-9A30-EDE8DFB73811}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BDB8DA4F-4EC2-4386-9AB4-183EEE830DA1}" ShortID="808871942" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{54C23C9C-1997-47F4-9317-0DFF9A231A83}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{C98E7D36-49FE-445C-933D-EE55BA9F0A04}" ShortID="919535642" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action210" ID="{814C31C5-97EC-4FE1-9CBF-E015E52E47C4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8BF518E7-35C0-449E-8B22-BF21FA603816}" ShortID="358735371" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{49F9DFE7-6BC3-4BA2-B929-EF171145AD1D}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{F7E62790-193C-4108-98E6-7C15158F2FEA}" ShortID="619931819" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action201" ID="{2E57D761-B98A-42C5-96DE-EBD03D7F9518}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6AB8D266-770B-4611-898B-828510A5532A}" ShortID="203609043" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{310119B7-3418-4402-A729-1835F19E936C}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{EBB28F28-FE65-4AC0-90BF-73FE974A0551}" ShortID="550277147" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action207" ID="{5B9C7F36-D15E-43A0-8CBB-3F58AAFD2FA6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{62573B7C-5050-4A4A-869C-4AC24EB5C72C}" ShortID="109129464" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{466350F2-DB0F-4B68-BBAE-A09666697542}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{BF161CF6-9C56-4CAB-BB64-B959220A7084}" ShortID="767707456" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action206" ID="{2AB0149A-5FAC-4FD2-8E7B-856062A2131A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D910EE61-FF5D-496C-84D8-DF6B57D434C5}" ShortID="197476682" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{52F6732F-9746-4629-9AE6-E42321E08AAD}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{37CC0975-7A1C-4C72-B254-8758567B59AB}" ShortID="526076593" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action205" ID="{F3C6ACD7-794A-4E0B-A6C2-829A31C06FA5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D11D0E9C-4F7D-4CD0-88C6-60FCFCD1B085}" ShortID="554574403" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{21099FBA-1501-4EB5-B3E5-FA3699E8AF49}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{99C10B31-E37E-4EF5-B326-D83716BF7E41}" ShortID="1069973576" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action209" ID="{759428F7-AF2D-4715-90BE-D2AED90FE288}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A6DEEBCC-0CEC-4F27-A589-AE8155E078A6}" ShortID="709319545" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E3101F8D-4B4F-4D70-A69B-6617985AC4C7}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{828EEA23-FA68-4ACF-9C81-F147E77CC7BF}" ShortID="795329614" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action208" ID="{F3EA520A-776F-43FC-AD88-35C9E161B2D9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D79502CD-211D-466C-A6F0-A46C744B8863}" ShortID="784171125" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8EB0D28F-D170-4593-9C8A-CFEC598D7984}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{3973007A-ED9E-4072-9244-2C76B6CBF0A0}" ShortID="247879927" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_RG_KillOrBeKilled_Inst" ID="{553C6E64-6326-4E4D-845C-8F4BDBFEF668}">
+					<ChildrenList>
+						<Action Name="Play" ID="{08F31DCF-E536-4A4A-947B-578A6FD1FB65}" ShortID="538674906" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D17DB032-0DBB-4E93-9EEC-6AD59081DC86}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{B184EE63-2D37-444D-8EAB-344F2DE5E89F}" ShortID="695782691" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_LS_TheReaping" ID="{99B90170-4DFA-4B36-BB75-24F0BF0EC790}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{1663B741-0155-427D-8AE6-849330E9FB5C}" ShortID="425574037" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D1C95C99-19B1-4FAF-B938-76EA44B9DD62}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_YourWar_Inst" ID="{13F67FB0-2675-41D5-8C75-DCDB92C69F6E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E93ED6DD-074E-432E-8DA9-A3A2C529882A}" ShortID="619210420" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EDA7421E-0C8B-477C-B21B-7D13D8B5669A}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{DFAE1E21-2BA5-4228-96AC-2841D8F39F47}" ShortID="191953212" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_SomethingMore_Inst" ID="{F673632B-BC67-4F9D-AEAE-CCCEAF6BC049}">
+					<ChildrenList>
+						<Action Name="Play" ID="{972EB623-CB45-4D6B-AC6C-200DB10ED403}" ShortID="305875865" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9BEEA8B8-DFFF-4CA6-A859-311E3C4F8AD3}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{DD4D6979-B140-4313-87C3-D9D52B7E2E02}" ShortID="200216931" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_BAJ_KF2_5_3" ID="{34BE5E8F-1F1A-40D8-8C4F-1CE2A6BECBAD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BE468249-4813-492D-BF84-580CC899D723}" ShortID="846920973" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{95D4FD0E-D500-4E01-A16C-793C171D1C28}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{688BDB09-1465-4547-BC4B-5492697AD01E}" ShortID="523074191" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action210" ID="{133DF4A1-216E-4A1D-A9CA-4666F7FBD00D}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{21C6A95D-6298-4C74-9CEB-464192DD86AA}" ShortID="207841487" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7B1194A6-3F9F-4F45-BD87-B9B952A44A2E}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_LS_YourWar" ID="{9DFC736B-D031-4978-A1DB-DC348AFF532E}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{8CD3832B-61F9-43D8-A954-E9A467C7DB98}" ShortID="1017403407" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{145D3A01-14C0-4ECF-B19E-462BE810413A}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action209" ID="{224F9EAC-E2B4-41FA-8D83-01341D9A2448}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{00F3CDF4-ECFC-49CE-B440-2F5E1B689FE5}" ShortID="562819611" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{636020EC-EAC5-4813-AD1B-5F7D8B4906C0}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action208" ID="{9BE7D018-02EC-4927-909E-7854C4B80423}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{30D1688B-E355-47C8-A505-2C37BE44D5E7}" ShortID="128262516" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{882458F8-0705-48A3-B458-0DCD560FE1D2}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action201" ID="{7226C392-E16F-4F98-BB81-1AA3545A6088}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{5F155569-A686-42AB-A179-50AC08288516}" ShortID="653490936" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{673749C3-897F-442A-9752-4BA923AB59F1}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action205" ID="{FE83546C-55C5-4BFE-8585-6F7B6700F3CF}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{846FA9AD-AE27-40C6-89A9-758D5211D911}" ShortID="468638124" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{74B64888-21EE-4231-B70C-BBC891C5552A}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action207" ID="{1BADB4EC-7F47-4AAA-90B3-356260C02A97}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{9326BEBF-5D9F-48A0-BF26-50AB5C96773E}" ShortID="456382437" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2A867479-2FD9-4A5F-9F6E-7BD5EF867588}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action206" ID="{38AF7BEC-AF10-4BC2-920B-12E89197E3F1}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{2CD2E285-E51D-426F-98A5-A94B10EBE5B1}" ShortID="568901437" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{58A58614-52B8-4E60-A31D-9296B4952E16}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_LS_Bloodwork" ID="{92F47533-2D69-4B41-BA2A-671BE88555C9}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{8440F7EC-DA72-450B-99E8-DDD9A4F22713}" ShortID="696480272" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AA3770A4-9C6D-4FFE-B05C-50E3CE52C550}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_Infected_Inst" ID="{35821B3F-664D-441A-ABCD-3C55DFBED9DE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0748230F-3665-4B59-8F81-EB1538B288BD}" ShortID="882282693" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0DB8FB12-88DB-4C39-AFF9-093155C95236}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{3C5274E6-B492-4CC7-8067-4679BFB302C4}" ShortID="857349826" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_ID_DeathWillReign_Inst" ID="{C10C2B5B-ADD0-4CFD-A9FB-1FF7831835A7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{EFB9CC96-51EC-4B14-A223-EB11A108BDA7}" ShortID="98761115" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8D528894-7FAC-4638-B614-78437443490A}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{DE63F4E8-6ACA-4AEA-88A0-E19E95191378}" ShortID="63798729" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action302" ID="{A7281FCA-7895-4AB8-8558-7C239D988DB1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{383FE8D8-DD66-4D4D-9405-E58D87D446A5}" ShortID="163391160" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{511FBD97-76DE-4E54-ABB9-B47724F7CB0A}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{0A1A6CEB-C132-4EB8-B6A8-69F8E7FA0E8E}" ShortID="735429934" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action303" ID="{BA26037C-BB42-40E7-87F5-32BE26F480C5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A4DD7B0A-98B3-42BB-A887-9D5E78483ED2}" ShortID="296847928" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9325D0BB-4F05-4E7F-8446-5089EB68CC52}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{2FAD70D3-7CBB-420A-8A6B-A669921307DC}" ShortID="203234606" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action300" ID="{A85757D3-440A-40C7-9294-60F38038B989}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6750474A-60F7-45FD-A403-B4F284F2DA50}" ShortID="856206070" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{42FE6896-8E5D-445D-A0C0-B77B997644EA}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{2BA46EFF-9DCB-40B2-AAA3-98DE59EAEC39}" ShortID="335586268" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action306" ID="{2E2CC838-FDF0-4614-BFCA-37776AB8F29B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DD2FE989-50B3-4A89-BCD4-272E3F8A8FF0}" ShortID="365810607" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{14AD22F7-5673-447B-B722-D8F1F49C9F9E}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{9453B169-0071-422D-B9D6-DCA70422F8A1}" ShortID="638666644" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action304" ID="{B6CE7036-5700-40C0-AB86-11D469187254}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B9883BC8-BF26-4131-8017-D2C608741826}" ShortID="347967538" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A8839CA5-2AE1-40F7-AA59-EDCBFC68378F}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{AB6836F1-9516-4BD7-9A67-150CBB886EF9}" ShortID="174073012" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action305" ID="{115C5A4A-7416-4208-B019-8F7FA170B032}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4D848F4F-C588-4AD9-9CC1-E18058DA16C1}" ShortID="605758447" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{736CF498-BE3F-48E5-9928-9C0D181373B0}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{B3839159-386B-4D9E-AE8A-2FE1FEB5AE72}" ShortID="787743669" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action115" ID="{118E1A8E-C078-433C-95A1-8D8FB49CEF09}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{CCDAD9B9-A098-445B-B96C-949311FD5AA7}" ShortID="774083461" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{91327BDE-0400-4F4E-B08E-2A533CCB1C45}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action116" ID="{B74B1973-5F39-4662-8CFC-ACC27CCB6B2E}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{3AAE17D0-6721-43F1-884F-ABFE47BFA739}" ShortID="226501495" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DFF0B52F-30E8-4315-97B2-029B79550719}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action113" ID="{B514DC70-37D9-4117-A6E5-4B45E1F40791}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{597E23CF-0004-45C3-81A5-23E3449624F4}" ShortID="240209182" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{47E9924E-41A8-4449-88C9-50C4F6B48E1C}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action119" ID="{445F7163-B99F-4251-B353-DBEF49D2EE23}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{D07D3E46-11FE-447C-BBDC-F90DEA00039A}" ShortID="633800755" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{597B1544-465F-4BBB-861A-A0F043314B92}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_WeDontCare_Inst" ID="{B2A89A9C-377D-49F1-AC2E-7B6A7268F345}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E1526A22-CCF9-4270-827F-EEA25A6AB820}" ShortID="851614749" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D57FE341-FFB7-4AAE-82B8-A8EEC2F7608B}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{705E6107-C9DD-4C10-80D0-34B648A997F6}" ShortID="397143314" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_DeathMachine_Inst" ID="{0238369A-5DD6-49F2-BC31-02392EFC2067}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B829EC1D-085F-44EB-9D1A-8C54A4B38AFD}" ShortID="849866967" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1B57D856-7D0B-486D-9A68-F9930552D9E2}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{C4CB98E6-664C-44F1-ACFA-5896437B3F65}" ShortID="306827203" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_ID_DeathWillReign" ID="{D0F20B7E-F42E-430C-A5E0-59B6AE8A3E18}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{436C9CA4-8C3E-42AA-BDE8-2AD5CC72452B}" ShortID="785752653" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{87E4D5F6-976C-4C59-BC1D-4BB6FD21DD03}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_LifeWar" ID="{51525261-1F07-4265-A060-3B05D0E8F735}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{6349C56B-C2F3-4FE4-B2AA-71242D52DABA}" ShortID="1067753636" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{19BC5179-9929-4415-96BE-942022F468D8}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_Collapsing" ID="{AA2E1B51-9392-4762-8284-3604CFDECE0E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{79163301-B3FC-46F1-8CA7-6B4842AA093C}" ShortID="79970979" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{61FE01BF-6EC6-49FD-BA10-A0103C409C5D}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{DD0D8EDC-74E7-4AE8-964A-0A97E6EB4AA5}" ShortID="425748274" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_ID_Murderer" ID="{26B2321B-56B2-421E-A423-1DC4DD1EDD5A}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{43ABF4B1-B78D-4198-B581-231097DC80D8}" ShortID="874965072" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C487272A-6F8E-49B5-B0FF-3DBB38BAFF78}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_LS_Despair" ID="{A3C0FE70-72AB-4850-AE8C-61E52A90D00D}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{040EE7DB-73E7-4DCB-B409-F22C7F27B25E}" ShortID="193204626" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E8DD342E-EF47-46EF-BCB8-357A492C18B5}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_IHaveSeen_NV" ID="{03C02908-6738-4212-B9F2-A86E7EB7D818}">
+					<ChildrenList>
+						<Action Name="Play" ID="{61E08A03-1DA0-438B-A241-88CE790466D8}" ShortID="18589469" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A845CA57-BA0F-4530-9A6B-43F1577ACE0D}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{62A34908-4256-4849-9FBA-AF27995D348C}" ShortID="232989473" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_TheReaping" ID="{14BDA7CA-0EE6-47F9-80FF-4F14847C9686}">
+					<ChildrenList>
+						<Action Name="Play" ID="{02C658E2-7602-48AB-B836-521E6764FE77}" ShortID="226629663" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B037D961-4C37-426D-8D0B-EDCFB4D3E0B3}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{19A91E05-D510-4C40-98D3-4342AC497281}" ShortID="440541210" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_HandOfTheDead_Inst" ID="{98EBBC10-646B-4823-A78F-605C3A2C127B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{54D52FC8-E3F5-4C39-8AFF-0309D5734DAF}" ShortID="406860751" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{538C0785-C6CC-45D7-B0B7-6C9CE6EE99FC}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{C7BF5386-0BCE-4F8A-8583-B66501B3119E}" ShortID="775740591" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_IHaveSeen" ID="{C5ECFC98-16A3-458D-A072-DEDB4E7F8E88}">
+					<ChildrenList>
+						<Action Name="Play" ID="{672A977E-2FA9-4758-9F1C-9A1B695303DB}" ShortID="337988302" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3089C43E-5F59-4D17-A742-E901755BD91F}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{810D6ACF-1C5E-43E6-A7A2-066EB5A1DE9B}" ShortID="1066100037" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_NotI_Inst" ID="{C72F0C5B-2006-48CB-B1B7-482A77D1D023}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D2796796-5FCF-4B0C-BD29-0B3543DE103A}" ShortID="876476086" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{69FBF3EE-C083-4B2F-853D-D4B41F28FC30}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{E781F181-B426-4495-A215-C692BDE3776A}" ShortID="620969297" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_FFAK_BitterEnd_Inst" ID="{EDF79D1A-0386-4E0D-95DF-ECB6F50F24F4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3986DA7B-8FD7-4956-8808-380EEB8156C6}" ShortID="820264604" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B89C7F1D-C2A8-4339-9FB2-99D1A575C35A}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{7E85045D-BE96-419B-9764-7BE212809319}" ShortID="755374366" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_ID_DeathWillReign" ID="{324C83B7-5B72-4580-9474-3A998891674F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{47212D3E-9359-41DC-BCE8-C3B30D06888F}" ShortID="596452630" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{20454350-3FBC-4F92-A234-CC9E416D0539}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{6837FD8B-0042-4796-BC3B-CDDB5F92E8FB}" ShortID="420766256" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_FireToMySoul_NV" ID="{F1AEB935-35F9-42FC-9868-71AC4E5C5AAD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5724C138-1A92-47B1-9377-52C1DE5C986E}" ShortID="686287410" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7AD9EF35-66AA-4FD6-9562-92E5948F007D}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{5C96A96E-22C4-422F-BCF0-22B21A3CF805}" ShortID="807669519" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_CrossToBear" ID="{AF5EA606-C21C-4245-81E5-1044D3FEA46B}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{453E7233-C55A-49B1-A654-845603B109AC}" ShortID="124894784" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4395218E-C5C7-4793-89CD-6209B4D31B03}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_BAJ_KF2_8_Inst" ID="{EC0D5CC0-1B35-4351-B093-37474B322280}">
+					<ChildrenList>
+						<Action Name="Play" ID="{808D1BA9-050D-4359-A365-360F5369C552}" ShortID="306973549" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4CAAEE25-D2B4-4E51-BED3-D5A22F4535F7}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{D703E5CC-7F16-4330-8B5B-FF69AA55A24F}" ShortID="377668258" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_BTA_MountainOfSouls" ID="{07543283-0474-4E76-8FAA-EB9F68307A9D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3EBFD79A-5376-444E-82BD-F120B5CDA986}" ShortID="252091738" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8E53D68D-B419-42D4-A5C0-AEADBE00B1D8}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{CD004D0C-DF83-413F-AEA8-8A14F848B710}" ShortID="978229269" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_LifeWar_Inst" ID="{1DABCF94-2DBB-4D28-B95C-265623105D45}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E6BD80CD-F557-4ABA-9312-7AAD95D0B595}" ShortID="46163630" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BA4BCF07-15C6-4AD7-8DF1-76BD32F0F15D}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{23854003-372F-483A-9AEC-245E1979F079}" ShortID="112879079" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_Death_Inst" ID="{9078BC2F-339C-4690-9C0B-FA467D9878DB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C0B1D354-343D-44CD-AC54-738844DC7168}" ShortID="989896812" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B2EBFB46-7982-4674-9A2C-BEDF8F7035EB}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{9505ED9E-FF57-479A-98DE-9D013B70BEA3}" ShortID="872590875" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_FireToMySoul" ID="{0135C92D-1CAF-4026-AC4F-52B356845EA9}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{30BC8B6B-0B22-44A3-97CE-01B66E10BC89}" ShortID="741896936" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{61F6ED54-5DA2-4541-B734-9CEFD071176F}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_NotMyOwn" ID="{18742CDC-E7DC-47D4-A483-377A3D896AE7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1D0CCF10-154F-4BCC-B9A0-A8EC68E0ED41}" ShortID="55540939" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CBE18D8C-90EB-4551-A5D2-F970ED82EED2}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{7631E53D-7525-47AD-B789-3EEE60EFB9A2}" ShortID="901765972" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_Despair" ID="{23B720BE-1A13-49ED-B4AA-93A3310FBFD4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0BE4E875-5FDF-422F-8FF6-1A0295355EAB}" ShortID="202608269" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{22082E6B-F7CE-4C09-B455-B68A1C03291C}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{F98E2DE4-D791-4024-BC51-334F5BD9AECD}" ShortID="1012988190" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_BAJ_KF2_5_3_Inst" ID="{ECEA4196-943A-4D86-B109-C75BAE9ECC27}">
+					<ChildrenList>
+						<Action Name="Play" ID="{93BBFB4E-8B51-42CE-8FE4-30E2055D8F20}" ShortID="757365598" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7AFF43D8-2F9E-40FF-B929-9AAF2A24386A}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{EE6CA13A-099A-4272-BC9B-40D7885F004E}" ShortID="537311714" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_FFAK_BitterEnd" ID="{2EEDE53A-99B0-4322-9091-12E6F3FE46CE}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{83AF7C07-3FB1-4582-88AF-368A40488C85}" ShortID="230817717" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{131B0D1C-A801-42A4-B28C-1A892F3B5FA7}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_Despair_Inst" ID="{11144B58-0C91-4333-A949-E9B6A2E004D4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4C1C1521-3214-43E1-BDF6-E39A89C667C3}" ShortID="66986423" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{808197F4-BFFB-43DC-A9AA-9526D2600870}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{B403954D-7DC4-46CB-867E-ED0062F0FAFA}" ShortID="582613435" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_TurnYourBackAndRun" ID="{94115BF3-F32D-4452-86A3-04E779D457CD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E24CCFCF-3964-4204-9BCE-16160E909108}" ShortID="941381031" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DC2C87BE-E502-4B61-8048-0167B9C8E220}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{E847FC21-2072-4157-AEC6-EE7EC5D94F43}" ShortID="935666392" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_DeathMachine" ID="{46D8365D-BEA8-4AEA-BCCC-22E6450D3B2C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{35CE32D0-1048-4B64-9A24-1A625273A06F}" ShortID="566526907" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2C4E58F9-8B55-42F3-A0EC-1790521C1322}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{BC22E1E1-F6FD-488D-AC82-2E730CD05740}" ShortID="457921748" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_D_Disunion" ID="{88DAD4E8-0173-4E62-AB91-2CF061802917}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1CED27A1-5D1A-426F-8C57-7471363C9EEB}" ShortID="207606373" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{068D14FE-1315-4F30-A310-3957E18FB39E}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{621BB0B6-6CE1-4E0D-A7B7-47C9C7C58E06}" ShortID="186220980" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_ThisIKnow_Inst" ID="{D8C9FF35-C1A8-4A6B-8A63-AEB89B48ABE8}">
+					<ChildrenList>
+						<Action Name="Play" ID="{86979A25-A97F-4E45-8D82-4E22FFF640CD}" ShortID="524804232" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2B227070-B50C-4D70-B6FB-64670FCA1424}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{EA08A90B-0B1C-40CC-83C6-2E05DB603C4D}" ShortID="297907139" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_BAJ_KF2_8" ID="{CDACCECF-FC7F-43A9-B40F-20E9BB420CA7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{95695059-D5A6-40A8-92E9-D1AC573ED06F}" ShortID="409100384" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6686E13C-1884-4FAE-9652-C4EBDE8FD301}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{1E8D7F21-062D-45B1-8AAF-3215C1C0CCB8}" ShortID="925753143" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_ThisIKnow" ID="{30C28204-1C2F-437E-B89C-2F72C8F9158D}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{85497EDD-0CD8-44F2-A942-45E942B85CEA}" ShortID="331031159" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{25BFDC9F-BFB1-4A62-8297-B396843AC477}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_Bloodwork" ID="{0EADF4E1-8D99-4D2E-AB10-2378B405C693}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A1255035-1250-4845-AB62-0FCE331F1B4F}" ShortID="236212078" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8C8F1E4E-784E-4141-923D-B05EBA23C665}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{D0F6F4FB-BF6B-4022-BE45-9E1EB0CE9CA8}" ShortID="479894219" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_BTA_MountainOfSouls" ID="{441A3D9F-6BCE-4BAC-82DB-BCA9827F5ED2}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{AD15B231-0ECC-4FA9-B382-78E67E78F8BD}" ShortID="497510051" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0B843E47-920F-4C98-90FE-F906914D271A}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_ID_RavenousDisease_Inst" ID="{BFFD1726-B3EB-486A-A3DB-5F7019ACD2BB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{13E69CD1-EEA9-449E-881A-38071D2B9CBD}" ShortID="526679553" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F28FDC76-8A29-4C10-868B-F6DD1403F825}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{BF1593A2-4C6D-4090-AA1B-CC3A1C71E24C}" ShortID="1059533880" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action300" ID="{FF6491CD-5A0F-4A00-9B5C-EAC55CB8A86D}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{23653C7B-6A24-4589-9243-3BE60C0DF708}" ShortID="79220201" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1F52D26F-8A33-4C15-8AC3-01E0DF5CA5A5}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action302" ID="{0CBF6107-80B1-434D-B276-F6EEC9057EDE}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{1B6706E9-B1DE-47EF-9608-01DCDB027B9B}" ShortID="279521177" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B60BFD1C-C2F7-465B-B9C9-537EE8629F82}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action303" ID="{526FEFF4-C3C5-471D-B9D3-964C70D35DD9}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{83A42024-9F9A-468F-9F71-56A94F31856F}" ShortID="1049569718" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{190AC0C2-3BAB-4C2B-89BF-D601DBC1875E}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action304" ID="{27FD941F-6B19-482E-AF56-D19F09C0E08F}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{FB666733-BEDA-47EF-B4B6-1F6FB375C6EF}" ShortID="910575966" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4F631261-B0D9-4359-99EA-594CF4F7B30F}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action305" ID="{8D96B7E7-83D7-4EE3-8E09-993A1DDCC99A}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{16DBFC44-EF63-48A2-971E-42ACE66A3A87}" ShortID="920957519" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B4EC9D8F-72E9-4D8C-A46D-44BF584A51F6}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Z_Action306" ID="{7A82CC4E-46F5-4F3E-9BD7-32D35CBAE6AA}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{627D6519-57FF-43F8-B51D-322A37C22CF5}" ShortID="722687867" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FE7AE4C4-AEC4-4179-AAC0-497E40F87093}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_Bloodwork_Inst" ID="{11E4E378-2FC1-4405-A7FC-11FDC39F84BC}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CD6E0604-890A-44AE-8CA3-F247A4191AB6}" ShortID="57904801" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D848B51D-B8FC-47D4-B45A-867528C2CA66}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{60892C05-7987-495A-8FC3-FF35578AAE70}" ShortID="787180273" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action119" ID="{6DF1705B-A23A-4148-84A5-EE15B7378B75}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7C35A6E3-4554-43DE-B7E6-DDD30C04F2BC}" ShortID="644186166" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E44731C5-3CB3-43E8-869C-76B56B15DDC9}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{47AA741C-ABC8-40D0-8673-C47B8E72084E}" ShortID="892470787" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action113" ID="{643319F6-F5CF-48B2-82D3-DE5DF672B686}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3837A365-A3F1-43CA-B8CF-8AC5B615D687}" ShortID="721750868" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9AB82C80-1238-4FA8-B077-A7E76255A68B}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{14B83E4D-A1EF-404B-B261-A05F689A194F}" ShortID="703914770" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action116" ID="{78EB8082-BC56-4F72-8E6B-17FF2202330D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{804B701C-A2DB-43EC-81E7-76EB7B3F2EC4}" ShortID="184807782" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{676297D2-C8E0-44E2-A0D1-F4DCC64CE35F}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{1FEB190C-B5BE-4C12-BFA6-F32E3EB9E170}" ShortID="276249746" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Z_Action115" ID="{E90A4144-AD46-4B77-9FDF-093FE5720701}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0C89AA33-FA0C-4AB4-B036-53FC2CC61A2F}" ShortID="784426392" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{99AB7F01-EC25-4E13-B56B-C21D68D725B0}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{99F403C4-727C-42F4-8EAC-25C13A0C4E37}" ShortID="808635154" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_NotI" ID="{88AA5110-A14F-4A42-B98E-C4B34EA626B2}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{11A4E288-B602-4278-96F6-54D361986FE4}" ShortID="70643554" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F2FA4161-05BC-4C2E-ADCF-D161693FE646}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_ID_Murderer_Inst" ID="{4D73439E-9603-42C9-8725-7CE2F0F3C9EF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2015F1F4-F6C0-45A8-9A15-4639995A4CCF}" ShortID="189452736" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F9962CF7-0570-46FA-88F2-7D11B94785CC}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{E43DDD68-2699-4C1E-9A8F-E5C3B8D57E6B}" ShortID="930334828" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_ID_RavenousDisease" ID="{E90C3474-7BF3-4229-BE41-1EC62372A43F}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{6577EC1B-4AC7-4047-B316-B0C8AEFD0482}" ShortID="548293360" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C9DFECFF-F366-4FE7-AFC7-D39531F141D7}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_Death" ID="{895F5784-2EE0-4C71-AA18-625F576F6FA5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BA17BA14-4579-405E-9897-9F1C70EAA7AA}" ShortID="463443890" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DF0D9B27-5095-4FCF-AEB5-383A02BDDAE8}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{89703317-244E-4FE6-B8EC-8B98DB96DC2B}" ShortID="666583567" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_LS_Flatline" ID="{60C4C035-F201-4893-82AD-90F0B33E1F94}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{EC779DB3-B572-47D5-915A-A75FD7DD72B3}" ShortID="571101521" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8740030E-9490-4BBD-B91C-630CB3FD0493}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_IHaveSeen" ID="{DF68E398-8489-441A-A003-07FD7381AD1B}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{BE2F469C-5B3D-405E-A40E-55D5DDE03F3E}" ShortID="1005323396" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{62542BD5-CC4E-4F7C-9DCB-5CD57BA17F8F}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_WeDontCare" ID="{E0394482-1B4F-4987-922D-9D0A25FD10FB}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{6725DB91-F4EE-42FC-B962-951508715B81}" ShortID="1022644873" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{972CA052-C3B7-4AE9-A611-C3A16B814B74}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_Collapsing_Inst" ID="{3F5B43ED-FB71-45B5-9BA5-3CBD4C47ECAB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8DDDFB7C-8CF0-407C-877E-B810426320EC}" ShortID="475751376" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6044711C-77A4-491D-A7CA-7F5E2E7D9B51}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{4C9E43F8-7B9A-41E3-8ECD-2D50E09E8B91}" ShortID="422742494" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_TheReaping_Inst" ID="{811016E1-0CF3-4CD9-B2B3-AE7BA0C4E056}">
+					<ChildrenList>
+						<Action Name="Play" ID="{04E32F1D-5167-4BEF-BEE6-54648C056ED3}" ShortID="90841044" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9376A49E-B201-4530-8AA6-403FC37944F2}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{1F296F7B-745F-4006-81E8-93FF02798B6F}" ShortID="421583259" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_SH_Boss_DieVolter" ID="{D8909FD9-8A2F-46DA-9358-35004B473753}">
+					<ChildrenList>
+						<Action Name="Play" ID="{AC94ABFD-6BB6-4BEE-9951-6C82161F10DD}" ShortID="51461789" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CFBE6CA3-BB71-4FFF-8246-DAEA25C952FA}" Global="false">
+									<ObjectRef Name="MACT SH Boss DieVolter" ID="{692BB16F-931A-4E88-862E-E5BCE4220887}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{46F596CC-3E1F-4997-88ED-033F859E4F1E}" ShortID="631005294" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_LS_DeathMachine" ID="{F1CB3F55-032A-4348-9578-A5AEFDDF4ABB}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{00582602-3500-4E2C-9438-E2752002C1A8}" ShortID="518962696" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1884321D-21B7-40B1-BB05-F4ABB3203542}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_SomeoneToHate" ID="{BEC3223E-4F8C-43BA-9702-17307F038BF6}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{F798E431-375B-4DE6-9F43-872EF194FA08}" ShortID="649848801" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B853FCDA-93E6-4EFF-9DF3-A6814F021687}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_RG_CloneMutation_Inst" ID="{4D7B6A6B-F06E-4A21-A416-4704A560CF09}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{813A9F78-D245-4F90-ACF8-247813E8DD35}" ShortID="447350378" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7C7A0CCB-1A19-48D8-9F7C-2E0754C452E2}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_RG_CreepingZed_Inst" ID="{9C9AD6FD-85A1-437B-A9EC-14E73DD62B3B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{618AC911-CE4E-44A0-BE4E-BCD5D49AA946}" ShortID="339670805" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{828E64CF-CA98-4BD0-9E21-352AEFFBC927}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{DDE2C691-622F-4892-BDFF-E6851B25A6BF}" ShortID="736977407" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_Flatline" ID="{440069F7-55F8-48BF-910E-75B2060B94BD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1FA95799-A9A4-4304-BBB3-1849222628EB}" ShortID="805764313" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{65591F96-DC46-42C7-8F30-A4A743992108}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{94E8EAA6-8F62-48AE-BB06-EE76423BD2F1}" ShortID="66666916" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_Infected" ID="{77D8A9C2-281D-4EBF-9389-5DEF66AD3321}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B6C96421-604A-4CD6-9D8A-F064D7C622BC}" ShortID="637496421" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4A1017B1-A402-4115-AD95-C66D5BEB5972}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{9B7555D2-C8D5-467A-A171-01FEE636D419}" ShortID="131977462" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_TurnYourBackAndRun" ID="{DA62B271-F4D5-4621-9CBF-36F78E13FB31}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{BB2C52A7-4261-4C78-AEAC-E8E82A35FA7E}" ShortID="968816142" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{273881E4-C537-490F-BA27-824733F0AFD4}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_WeDontCare" ID="{DA53169A-D0CB-43DA-9C31-9F7CB2A38856}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A41BCBAF-CAF3-4C52-9F94-24E95B5749F2}" ShortID="20471764" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AA1D79E1-920F-471D-B26F-9A33B387EDCE}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{7E4ADA71-0BBB-4413-854E-F55A3B138000}" ShortID="790843972" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_Death" ID="{7C43CB93-72C7-4952-B1AB-C7C9EF3FB2DE}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{62D66742-A215-4148-B186-674F804F25A3}" ShortID="86853202" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5C743FB9-6879-476D-BD3B-E32997432518}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_FireToMySoul" ID="{DBD7CC0B-857F-46CE-A7DB-86AE306F0554}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E26FE605-5DB8-422B-BD2C-5A9091047098}" ShortID="522875106" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3E620207-9C0E-4FEE-8DCA-32F8FD3D2E6C}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{04D73C0D-31A7-4AF8-BA2F-F9BACDEB500C}" ShortID="171246518" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_Ribcage" ID="{BB468F55-69F7-4914-B86A-28692F174678}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{5AE22FE2-285A-4599-9477-A8854722C10F}" ShortID="737407876" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{939A43C5-EA72-4430-BBF9-705F9B3F4DBD}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_Infected" ID="{2505D6E1-54E1-44DF-BD53-1825DC9FED0C}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{2EFEDE21-61FC-49A6-BEF3-12011F727C18}" ShortID="731071275" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6CE20978-420B-4B3B-B370-DA79C20620EA}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_TurnYourBackAndRun_Inst" ID="{6C5B7D76-4DE6-4830-B166-49ECA97DEDBB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E4C7EB33-7C9C-44F4-8618-6770C10BA4E7}" ShortID="168905312" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6C428B9B-8408-43FF-A8FF-EFAC6E321100}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{FA61378D-11B7-4AEC-BB5B-9843A754A95E}" ShortID="231904958" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_LS_NotMyOwn" ID="{C0DE4BF5-0842-4A1A-9853-68142C1ECE5B}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{29D609AB-0E1C-4BDC-8186-DD3171714033}" ShortID="1006556976" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F137B3DA-8D04-4361-A835-15FD6E003F82}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_SomethingMore" ID="{DFEDC528-97AA-4615-9975-D1ACD77AD822}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1679BCFB-97AC-4C2F-A231-03B61D527B7D}" ShortID="235081457" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DED06337-E922-49B2-98C5-030E1CE45042}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{2BC80789-8F39-42C6-99B0-9E450526DAC7}" ShortID="719250456" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_DH_Collapsing" ID="{DC9BF778-2FA0-419A-9864-FA34C119B8D1}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{5D969F00-B753-44DD-AE58-8DA8C1506ED4}" ShortID="26734969" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{526B1B9A-9C11-4F70-BF4E-7C49DAB972D8}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_SH_Boss_DieVolter" ID="{7FE6DCAD-BC23-4CCE-9034-D13E85347CFF}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{5A96E6C0-9052-4300-BD02-268740072011}" ShortID="778582969" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{28D36805-E353-40E7-B27F-6629D3B53A0F}" Global="false">
+									<ObjectRef Name="MACT SH Boss DieVolter" ID="{692BB16F-931A-4E88-862E-E5BCE4220887}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{6CC833D6-1108-49EC-B4E6-C00C1BBEAD98}" ShortID="569791919" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="None" ID="{894D91AE-A889-4DE7-8BC1-74F061C2DD9D}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_D_Disunion" ID="{9E5F4504-DBF6-4F6C-BEB6-DCC637E99ABA}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{B4925085-70D2-4E19-B7C4-862D7F88931A}" ShortID="890487252" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1582EE55-BA6E-415F-BE13-69DACB48938F}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_NotMyOwn_Inst" ID="{CB00B029-CE23-4C4A-87C6-0079FDA4E2BD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6F0EA65C-4A00-4EEE-9461-69DBD25E8537}" ShortID="319818819" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EE9AF8F9-51B2-400F-8CC1-0F3555211A7C}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{DBD1C0D5-6650-4F2A-BC1C-307C0490FFEB}" ShortID="601812649" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_RG_KillOrBeKilled_Inst" ID="{8E09CB04-1AAC-4B00-9F63-4F1FE3653379}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{6CBF65DB-D09A-4398-AABC-9BEEB763D70F}" ShortID="649465178" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8F2D1E48-F083-4FA4-BA68-4EFA741EC004}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_BAJ_KF2_5_3_Inst" ID="{06B90047-18DD-4CAB-8441-918CB6C1447E}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{6CDE06A3-B670-49E5-B967-3E65829DA133}" ShortID="447502758" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{74D416FA-095A-4EC2-8D94-FCED49F5782C}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_ID_Murderer" ID="{2DCA0C4D-1F99-41F6-946C-7D137B7C6B40}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6F91D262-2E72-442C-9B04-E6B8B607B89F}" ShortID="26990236" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{29B7F836-BD53-4065-9A3B-38E85424621E}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{F19A9E3B-3F1A-46F4-8B22-9F5EAC38099D}" ShortID="584307842" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_Flatline_Inst" ID="{B810FF1B-C08E-444B-AC9B-FA65D0A1FE5E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DFF09B5B-5149-4789-9233-A6DE8A9BD145}" ShortID="710835701" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4085555E-DBCC-4C6B-897A-D7E25011BAB7}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{93B17742-E89D-4B82-BA22-1EA91E8AED05}" ShortID="708835203" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_RG_CloneMutation_Inst" ID="{CE01E152-0BCF-4469-938B-8D8B91572332}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BE1593F1-0968-41F0-BF52-198BB6181026}" ShortID="220767936" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5FAC062E-1162-491D-9237-2071DF471E10}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{063DB275-7363-4138-89D5-34BF638AF9C0}" ShortID="652348137" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_ThisIKnow" ID="{EB07F38B-1B11-4F66-B0D4-4E19BAD59284}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D3638D2F-D32F-4D1A-9D54-FAC7907AB756}" ShortID="992195956" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A0C5C508-2F3D-4C7F-8402-D40128263464}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{E4DA9ECA-364B-4857-8244-584B59C26FBC}" ShortID="177287014" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_NotI" ID="{D02C095E-9536-40F0-9E05-A02B5F911D35}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7C3E46B4-541E-4AAB-BC6E-FE340C31232F}" ShortID="683550421" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EE86B6BA-AC4F-459A-9E95-1FA2DBE87318}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{61228E51-CF91-4B7F-9796-99BC768B2D57}" ShortID="398124378" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_DH_CrossToBear" ID="{F738E6FC-027B-4CDB-ADF4-E0E4A3F54E50}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3320AEE0-019E-4074-BEE2-8352F8BB1F51}" ShortID="11762758" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C2A0C4CB-29DB-4FA5-A3F8-B20F71170C81}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{01B51963-39D4-4C69-9849-0EE2B0FBF1BD}" ShortID="1000097767" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_LS_HandOfTheDead" ID="{F67E5B10-39CD-4196-B256-B08AC1FC663C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{41898B88-6C34-4BFF-A7FF-8E39751F3DFB}" ShortID="675525877" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{51B39BF2-C1D4-4B74-92A6-F57B839B2742}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{9AFA5616-6F87-428D-A6AA-84C291316879}" ShortID="1012363102" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_D_Disunion_Inst" ID="{4DE95760-FCC3-4771-B9EE-88F039EF8FEE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7EE0843D-EBE2-4D8C-B613-1466305B6A4B}" ShortID="1046731071" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F1950884-B1F8-4213-89F2-419FB2813116}" Global="false">
+									<ObjectRef Name="MACT DH NotI Inst" ID="{9F7F22F2-8216-409B-BC51-3B4B06782647}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{27C117EC-1B2E-460A-AEE2-15F9EED69F43}" ShortID="316466013" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MACT_Boss_Patriarch" ID="{B9E1BE54-9EB8-41CA-80BC-69CEEB5515FD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F744C4F6-D46A-47F4-ADF6-2A1760FD2D0A}" ShortID="256900090" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AC201315-D9FF-494A-9CE2-E698AE9AEBEF}" Global="false">
+									<ObjectRef Name="MACT SH Boss DieVolter" ID="{692BB16F-931A-4E88-862E-E5BCE4220887}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{D1C3F903-9174-4555-A045-5D15ADBEE2C8}" ShortID="272887597" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="InGame" ID="{4B561002-8BED-4A5D-B5C0-EB0D7AF1C713}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MACT_Boss_Patriarch" ID="{3301E062-CB8B-4E04-948F-446115B3EB78}">
+					<ChildrenList>
+						<Action Name="Play" ID="{69EF1323-722C-4E66-A4C9-971C776AC4CE}" ShortID="359128177" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3267C68B-8E02-44AA-9D8F-F77101F3A975}" Global="false">
+									<ObjectRef Name="MACT SH Boss DieVolter" ID="{692BB16F-931A-4E88-862E-E5BCE4220887}" WorkUnitID="{C927B611-AF79-4857-9A68-4AD04C2FC126}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{FB6F258A-3C69-40AA-9682-3A26993533EE}" ShortID="235457245" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="GlobalGameState" ID="{4B57E5AE-A2D5-4047-9B18-50C31273AED4}"/>
+								<GroupItem Name="None" ID="{894D91AE-A889-4DE7-8BC1-74F061C2DD9D}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

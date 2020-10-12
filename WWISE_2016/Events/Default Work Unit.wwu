@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1461833-060C-40D3-95E7-869A1F1AC770}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A1461833-060C-40D3-95E7-869A1F1AC770}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Set_State_Indoor" ID="{C51902DE-5F6D-490D-9FB7-06D337C2FDFE}"/>
+				<Event Name="Trigger_New_Trigger" ID="{8C6B0A9D-0860-49B6-8D1C-C4AAE7B46989}">
+					<ChildrenList>
+						<Action Name="Trigger" ID="{A5D6508D-1397-4546-BEAD-9C63B267B20A}" ShortID="1062522111" Type="Trigger" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C74BB8F6-32FC-47F1-B80E-AF3461CE2B18}" Global="false">
+									<ObjectRef Name="New_Trigger" ID="{49556550-4547-436A-8249-CB12B1C97BFD}" WorkUnitID="{3E81032E-F261-4FF7-AB4D-3AF325C29390}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

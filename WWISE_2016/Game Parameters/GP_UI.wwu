@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}" SchemaVersion="70" RootDocumentID="{53530539-3F9B-42FD-B043-5C9C1184EE45}">
+	<GameParameters>
+		<WorkUnit Name="GP_UI" ID="{AC248889-5AD0-4F07-8423-14B9742D5EC2}" OwnerID="{53530539-3F9B-42FD-B043-5C9C1184EE45}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="UI_Volume_Voice" ID="{E8A3AB84-51CE-4C95-9B8D-BAAF21495038}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="UI_Volume_Music" ID="{360F1C5F-0D4A-4962-9CB2-3B1E4515BAFB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="UI_Volume_SFX" ID="{D1201C74-55F6-4AD0-9263-66C6986CC0AE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="UI_Volume_Master" ID="{6288893C-A75F-4176-921A-AE5037CD516F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

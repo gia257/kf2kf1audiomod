@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0AAC0956-5181-4AF6-B6D9-B45AF18602D7}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="MUS" ID="{0AAC0956-5181-4AF6-B6D9-B45AF18602D7}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="MUS MNU" ID="{86A34A8B-74E7-4CE4-8F35-FA47AAEA72B7}" PersistMode="Reference"/>
+				<WorkUnit Name="MUS AMB" ID="{BC846D14-47B9-4275-995A-B15070A7AA2E}" PersistMode="Reference"/>
+				<WorkUnit Name="MUS ACT" ID="{7350BA17-48E0-4870-9ADD-B5EEF880AA02}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

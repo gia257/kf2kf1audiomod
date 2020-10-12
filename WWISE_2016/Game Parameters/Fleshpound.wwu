@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AAEF6179-C0A2-4E04-91D3-6967F8405C51}" SchemaVersion="70" RootDocumentID="{53530539-3F9B-42FD-B043-5C9C1184EE45}">
+	<GameParameters>
+		<WorkUnit Name="Fleshpound" ID="{AAEF6179-C0A2-4E04-91D3-6967F8405C51}" OwnerID="{53530539-3F9B-42FD-B043-5C9C1184EE45}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="Fleshpound_SpinnerSpeed" ID="{BA841296-8AF7-40D1-93C3-00133A609829}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

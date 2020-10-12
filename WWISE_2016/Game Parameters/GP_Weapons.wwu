@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B22E1061-498A-4B60-BF27-1AFE8DC3EAD6}" SchemaVersion="70" RootDocumentID="{53530539-3F9B-42FD-B043-5C9C1184EE45}">
+	<GameParameters>
+		<WorkUnit Name="GP_Weapons" ID="{B22E1061-498A-4B60-BF27-1AFE8DC3EAD6}" OwnerID="{53530539-3F9B-42FD-B043-5C9C1184EE45}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="DopplerPitchScalar" ID="{179B9795-6DA4-4A3C-B625-5C37E6E2AF4B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Distance" ID="{C5D173F6-91DB-4EA0-8923-C76661E5FA33}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="EchoDistance" ID="{3D27DBF1-50E6-4586-91E7-BB80130DCE5D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

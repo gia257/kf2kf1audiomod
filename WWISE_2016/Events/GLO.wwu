@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6516F820-C45B-444E-93C6-51826B999D79}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="GLO" ID="{6516F820-C45B-444E-93C6-51826B999D79}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Resume_All" ID="{AAF3BD1E-D642-4152-9788-3ECEFE3861A8}">
+					<ChildrenList>
+						<Action Name="Resume All" ID="{21A36F98-5500-457D-8A13-83945E793C3C}" ShortID="728621057" Type="Resume" Scope="All" Global="false"/>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_All" ID="{C793EE54-7B88-4CF5-B248-B5065C7BA831}">
+					<ChildrenList>
+						<Action Name="Pause All" ID="{EC2B89EA-9D27-4E8D-86D7-9D45D01EABDA}" ShortID="415561262" Type="Pause" Scope="All" Global="false"/>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

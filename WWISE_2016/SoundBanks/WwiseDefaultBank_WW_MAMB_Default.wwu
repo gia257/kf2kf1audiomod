@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A3DD914D-C06A-4CA4-9B62-06828FC5C064}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="WwiseDefaultBank_WW_MAMB_Default" ID="{A3DD914D-C06A-4CA4-9B62-06828FC5C064}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="WwiseDefaultBank_WW_MAMB_Default" ID="{1ECC2449-0556-45FD-B715-E787FA46DA49}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MUS AMB" ID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

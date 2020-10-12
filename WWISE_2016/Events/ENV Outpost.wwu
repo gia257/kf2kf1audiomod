@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1000CB5-D9AC-434E-9795-5DC1C4CEF4B2}" SchemaVersion="70" RootDocumentID="{67F11269-9613-4745-9B57-1E0DCE5B024B}">
+	<Events>
+		<WorkUnit Name="ENV Outpost" ID="{B1000CB5-D9AC-434E-9795-5DC1C4CEF4B2}" OwnerID="{67F11269-9613-4745-9B57-1E0DCE5B024B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="ENV_Outpost_Exterior_Wind_Gust" ID="{12D89FA3-8AE9-469B-A9DB-50FB0DC619A0}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{5A1D5942-8CA0-430D-8EC2-7BDC959B6188}" ShortID="136336198" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Level" ID="{0CC668AD-8632-4356-B46D-6F53B4B4FEE3}"/>
+								<GroupItem Name="Outpost" ID="{0CC6F1AF-FF89-4E87-B84C-5A1D32DFF728}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{0B53F29B-0548-4E1A-BF15-9D23090A0465}" ShortID="860721215" Type="SetState" Scope="All" Global="true">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+							</ExcludedPlatformList>
+							<SetItemParam>
+								<Group Name="ENV_Paris_Location" ID="{1EBBCA3B-758E-4C34-928D-5CA1099F238A}"/>
+								<GroupItem Name="None" ID="{FA1E1FEA-29F9-4F0C-8C45-0FFEE180258F}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ENV_Outpost_Door_Sliding_Close" ID="{26A59C5E-2BFE-425C-9F61-A0C15898EDD8}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{F5BCBA26-57BD-4163-8EB5-1BF8DB4FC98E}" ShortID="610851300" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Level" ID="{0CC668AD-8632-4356-B46D-6F53B4B4FEE3}"/>
+								<GroupItem Name="Outpost" ID="{0CC6F1AF-FF89-4E87-B84C-5A1D32DFF728}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{0D2A786D-C5AE-4298-9D3E-84B8D5966417}" ShortID="433089327" Type="SetState" Scope="All" Global="true">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+							</ExcludedPlatformList>
+							<SetItemParam>
+								<Group Name="ENV_Manor_Location" ID="{B69D4779-B049-4D32-A36D-AD6FE10A774C}"/>
+								<GroupItem Name="None" ID="{CE2D6410-C2A6-46C2-B973-4B4F8299255A}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

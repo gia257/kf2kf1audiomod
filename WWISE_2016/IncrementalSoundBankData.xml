@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="4" Flags="384998679">
+	<Platform GUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="1440119920" StreamHash="157587662" Timestamp="131065339982335797"/>
+			<Bank Name="WwiseDefaultBank_WW_MACT_Default" Hash="3930032885" StreamHash="3248255637" Timestamp="131065343365196190"/>
+			<Bank Name="WwiseDefaultBank_WW_MAMB_Default" Hash="2461478556" StreamHash="2217610539" Timestamp="131065339981715762"/>
+			<Bank Name="WwiseDefaultBank_WW_MMNU_Login" Hash="2539937069" StreamHash="614072676" Timestamp="130859540641807941"/>
+			<Bank Name="WwiseDefaultBank_WW_UI_PlayerCharacter" Hash="3948128613" StreamHash="157587662" Timestamp="130856945934038031"/>
+		</Language>
+	</Platform>
+	<Platform GUID="{A2D401DE-B8B6-4FEB-8142-137C34D507CB}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="2510405597" StreamHash="157587662" Timestamp="130856936369109172"/>
+			<Bank Name="WwiseDefaultBank_WW_MMNU_Login" Hash="962664342" StreamHash="157587662" Timestamp="130856936368859152"/>
+		</Language>
+	</Platform>
+</IncrementalBankBuild>

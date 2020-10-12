@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0CE98141-1700-48E2-B55D-514767DDB2A0}" SchemaVersion="70">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{0CE98141-1700-48E2-B55D-514767DDB2A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{DC8B9EC5-CA81-42BE-89A2-2BF82F70E747}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="MAMB RG InTheDarkness Inst" ID="{2F3ABB31-E73D-402C-916A-A805634F9EF2}" WorkUnitID="{D12A22E0-EE59-459B-8C35-06B8F904F4C9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{91248C00-0999-4A92-B7FF-03F6CC340096}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{47C2EB02-AD87-4AAC-B6FC-AAB2B0169B57}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{69083A07-42EB-44FF-AE81-AEE5F1031148}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PositioningType" ID="{8992BD16-DF99-464E-A79E-17BC79BD1457}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{6505E219-D014-42FD-861A-D2FD1EE4AC37}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{30DA9C2F-3A2F-4B56-A008-B00A60BFA880}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="UI_Volume_Master" ID="{6288893C-A75F-4176-921A-AE5037CD516F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Timeofday" ID="{72CEF84A-65A2-43EF-925E-48E06D960449}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="UI_Volume_Music" ID="{360F1C5F-0D4A-4962-9CB2-3B1E4515BAFB}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Zedtime_Modifier" ID="{A572DA60-BC37-444D-A59D-0A5BDE795BE1}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{76BD616D-4C39-42A7-8875-A6C917AC91C5}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="UI_Volume_SFX" ID="{D1201C74-55F6-4AD0-9263-66C6986CC0AE}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="UI_Volume_Voice" ID="{E8A3AB84-51CE-4C95-9B8D-BAAF21495038}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GrenadeFX" ID="{1C74F08A-5C21-4C58-BE1B-1707C04CEAE5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DopplerPitchScalar" ID="{179B9795-6DA4-4A3C-B625-5C37E6E2AF4B}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Fleshpound_SpinnerSpeed" ID="{BA841296-8AF7-40D1-93C3-00133A609829}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{BF511FAA-6CF0-49BB-975F-67774C82CE92}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Health" ID="{6FA9CBCD-A595-45E2-AEEB-B76FBF39E9FB}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{CF6A3AE2-AB84-4F5F-8E9F-E62BD1DF58FF}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{59FB70E3-AA2E-4ECD-8A2C-E3C7FD9F1E90}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="EchoDistance" ID="{3D27DBF1-50E6-4586-91E7-BB80130DCE5D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance" ID="{C5D173F6-91DB-4EA0-8923-C76661E5FA33}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Courtyard" ID="{B8D78167-2468-4E88-A780-2CCA123A2FF0}"/>
+						<CurrentStateRef Name="None" ID="{D3E904C5-86AE-448D-A913-4AD38C52A8C1}"/>
+						<CurrentStateRef Name="Outdoor" ID="{9D53D142-C617-497B-B8DE-22BDFEE047D8}"/>
+						<CurrentStateRef Name="Outpost" ID="{0CC6F1AF-FF89-4E87-B84C-5A1D32DFF728}"/>
+						<CurrentStateRef Name="InLogin" ID="{CFE89816-04E4-4D1F-88FD-77C640AB57D2}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Brick" ID="{3093AD70-E915-4EFC-B3C4-850F74309277}"/>
+						<CurrentSwitchRef Name="Indoor_Large" ID="{29FD04B4-EC55-49BE-A209-A71A3517B8B5}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
