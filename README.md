@@ -9,7 +9,7 @@ Mods the Steam game Killing Floor 2 into having Killing Floor 1 audio.
 
 ## License
 
-Original EULA: https://store.steampowered.com/eula/232090_eula_0
+No added rules on top of the original EULA for Killing Floor 2 Mods: https://store.steampowered.com/eula/232090_eula_0
 
 ## Installation
 
